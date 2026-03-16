@@ -2,12 +2,16 @@ name: Weekly Finance Crawler
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 天天timezone:  UTC 01:00 (台灣時間早上9點)
-  workflow_dispatch:
+    - cron: "0 1 * * *"  # 每天 UTC 01:00 (台灣 09:00)
+  workflow_dispatch:     # 允許手動觸發測試
 
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
+    # 增加寫入權限，確保能 push 回 Repo
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -18,7 +22,8 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install yfinance pandas
+        run: |
+          pip install yfinance pandas
 
       - name: Run crawler
         run: python crawler.py
@@ -28,5 +33,10 @@ jobs:
           git config --global user.name "LoChangCheng"
           git config --global user.email "610630112@gms.tku.edu.tw"
           git add data/finance.json
-          git commit -m "update weekly finance data"
-          git push origin main
+          # 檢查是否有變更，避免空提交報錯
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update finance data: $(date +'%Y-%m-%d')"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
