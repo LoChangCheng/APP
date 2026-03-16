@@ -16,9 +16,16 @@ tw0050 = yf.Ticker("0050.TW")
 tw0050_data = tw0050.history(start=start_date, end=end_date)
 
 # 整理成字典
+# 修改這部分，確保日期可以被 JSON 序列化
+def serialize_datetime(obj):
+    if hasattr(obj, 'isoformat'):
+        return obj.isoformat()
+    return str(obj)
+
+# 整理成字典時，先將 index (日期) 轉成字串
 output = {
-    "SP500": sp500_data.reset_index().to_dict(orient="records"),
-    "0050.TW": tw0050_data.reset_index().to_dict(orient="records")
+    "SP500": sp500_data.reset_index().assign(Date=lambda x: x['Date'].dt.strftime('%Y-%m-%d')).to_dict(orient="records"),
+    "0050.TW": tw0050_data.reset_index().assign(Date=lambda x: x['Date'].dt.strftime('%Y-%m-%d')).to_dict(orient="records")
 }
 
 # 存成 JSON 檔
