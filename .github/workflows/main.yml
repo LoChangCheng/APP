@@ -2,21 +2,22 @@ name: Weekly Finance Crawler
 
 on:
   schedule:
-    - cron: "0 1 * * *"
-  workflow_dispatch:
+    - cron: "0 1 * * *"  # 台灣時間 09:00
+  workflow_dispatch:     # 允許手動測試
 
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
+    # 必須加入權限設定，才能讓 Action 把檔案推回你的 Repo
     permissions:
       contents: write
       
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4  # 升級到 v4
+        uses: actions/checkout@v4  # 更新到 v4 解決 Node.js 警告
 
       - name: Setup Python
-        uses: actions/setup-python@v5  # 升級到 v5
+        uses: actions/setup-python@v5  # 更新到 v5 解決 Node.js 警告
         with:
           python-version: "3.10"
 
@@ -31,6 +32,7 @@ jobs:
           git config --global user.name "LoChangCheng"
           git config --global user.email "610630112@gms.tku.edu.tw"
           git add data/finance.json
+          # 檢查是否有檔案更動，避免沒有資料更新時報錯
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "update weekly finance data"
             git push origin main
