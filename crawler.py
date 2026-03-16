@@ -4,38 +4,37 @@ import json
 import os
 import pandas as pd
 
-# 設定時間範圍：過去一週
+# 設定時間範圍
 end_date = datetime.today()
 start_date = end_date - timedelta(days=7)
 
-def get_clean_data(ticker_symbol):
+def get_data(symbol):
     try:
-        ticker = yf.Ticker(ticker_symbol)
+        ticker = yf.Ticker(symbol)
         df = ticker.history(start=start_date, end=end_date).reset_index()
         
         if df.empty:
-            print(f"警告: {ticker_symbol} 沒有抓到資料")
             return []
 
-        # 【核心修正】將 Date 欄位轉換為 ISO 格式字串 (例如 "2024-05-20")
-        # 這樣 json.dump 才能處理它
-        df['Date'] = df['Date'].dt.strftime('%Y-%m-%d')
-        
-        # 轉成字典列表
-        return df.to_dict(orient="records")
+        # 強制轉換：先將所有資料轉成字串，再轉回字典
+        # 這是最保險的做法，能解決所有 Timestamp 或特殊數值問題
+        json_data = df.to_json(orient="records", date_format="iso")
+        return json.loads(json_data)
     except Exception as e:
-        print(f"抓取 {ticker_symbol} 時發生錯誤: {e}")
+        print(f"Error fetching {symbol}: {e}")
         return []
 
-# 整理成字典
+# 彙整資料
 output = {
-    "SP500": get_clean_data("^GSPC"),
-    "0050.TW": get_clean_data("0050.TW")
+    "SP500": get_data("^GSPC"),
+    "0050.TW": get_data("0050.TW")
 }
 
-# 存成 JSON 檔
+# 確保目錄存在
 os.makedirs("data", exist_ok=True)
+
+# 儲存檔案
 with open("data/finance.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print("已成功修正日期格式並存成 data/finance.json")
+print("✅ 檔案已成功存成 data/finance.json")
