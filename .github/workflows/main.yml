@@ -2,7 +2,7 @@ name: Weekly Finance Crawler
 
 on:
   schedule:
-    - cron: "0 1 * * 1"   # 每週一 UTC 01:00 (台灣時間早上9點)
+    - cron: "0 1 * * *"   # 每天 UTC 01:00 (台灣時間早上9點)
   workflow_dispatch:
 
 jobs:
