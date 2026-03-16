@@ -1,0 +1,29 @@
+name: Weekly Finance Crawler
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"   # 每週一 UTC 01:00 (台灣時間早上9點)
+  workflow_dispatch:
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install yfinance psycopg2-binary
+
+      - name: Run crawler
+        env:
+          AZURE_DB_HOST: ${{ secrets.AZURE_DB_HOST }}
+          AZURE_DB_NAME: ${{ secrets.AZURE_DB_NAME }}
+          AZURE_DB_USER: ${{ secrets.AZURE_DB_USER }}
+          AZURE_DB_PASSWORD: ${{ secrets.AZURE_DB_PASSWORD }}
+        run: python crawler.py
