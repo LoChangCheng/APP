@@ -36,16 +36,18 @@ jobs:
         run: |
           git config --global user.name "LoChangCheng"
           git config --global user.email "610630112@gms.tku.edu.tw"
-          git add data/finance.json
           
-          # 檢查是否有檔案更動，避免沒有資料更新時報錯
+          # 👇 關鍵修正：把舊的 data/finance.json 改成追蹤新的資料夾
+          git add raw_market_data/
+          
+          # 檢查是否有檔案更動
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "update weekly finance data"
+            git commit -m "📊 update daily market data"
             
-            # 👇 這是關鍵！一定要加這行把遠端進度拉下來
+            # 先拉取遠端進度避免衝突
             git pull --rebase origin main
             
-            # 然後再推上去
+            # 推送上去
             git push origin main
           else
             echo "No changes to commit"
