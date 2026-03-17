@@ -33,24 +33,21 @@ jobs:
       - name: 🚀 Run crawler script
         run: python crawler.py
 
-      - name: 💾 Commit and Push changes
+      - name: Commit results
         run: |
-          # 設定 Git 機器人身分
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "LoChangCheng"
+          git config --global user.email "610630112@gms.tku.edu.tw"
+          git add data/finance.json
           
-          # 將 raw_market_data 資料夾內的所有變動加入追蹤
-          git add raw_market_data/
-          
-          # 檢查是否有檔案變動，如果有才 commit，避免報錯
+          # 檢查是否有檔案更動，避免沒有資料更新時報錯
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "📊 每日市場數據更新: $(date +'%Y-%m-%d')"
+            git commit -m "update weekly finance data"
             
-            # 🌟 關鍵新增：先拉取遠端最新代碼合併，避免 Push 失敗
+            # 👇 這是關鍵！一定要加這行把遠端進度拉下來
             git pull --rebase origin main
             
-            # 指定推送到 main 分支
+            # 然後再推上去
             git push origin main
           else
-            echo "沒有新的數據需要更新。"
+            echo "No changes to commit"
           fi
