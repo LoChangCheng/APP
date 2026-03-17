@@ -45,7 +45,12 @@ jobs:
           # 檢查是否有檔案變動，如果有才 commit，避免報錯
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "📊 每日市場數據更新: $(date +'%Y-%m-%d')"
-            git push
+            
+            # 🌟 關鍵新增：先拉取遠端最新代碼合併，避免 Push 失敗
+            git pull --rebase origin main
+            
+            # 指定推送到 main 分支
+            git push origin main
           else
             echo "沒有新的數據需要更新。"
           fi
