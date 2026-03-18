@@ -12,11 +12,16 @@ def get_taiwan_tickers():
 
     for val in df_twse[0]:
         val = str(val)
-        # 尋找「數字代號 + 全形空白」的格式 (例如 "2330　台積電")
         if '　' in val:
             code = val.split('　')[0]
-            # 只保留 4 碼的正常股票與 ETF
-            if len(code) == 4 and code.isdigit():
+            
+            # 💡 修正邏輯：
+            # 條件 A: 一般股票 (4碼純數字，如 2330)
+            is_normal_stock = (len(code) == 4 and code.isdigit())
+            # 條件 B: ETF (以 00 開頭，長度 4~6 碼，包含 L/R/B 等字母，如 0050, 00878, 00632R)
+            is_etf = (code.startswith('00') and 4 <= len(code) <= 6)
+            
+            if is_normal_stock or is_etf:
                 tickers.append(f"{code}.TW")
 
     # 2. 抓取【上櫃】股票與 ETF (後綴為 .TWO)
@@ -28,14 +33,18 @@ def get_taiwan_tickers():
         val = str(val)
         if '　' in val:
             code = val.split('　')[0]
-            if len(code) == 4 and code.isdigit():
+            
+            is_normal_stock = (len(code) == 4 and code.isdigit())
+            is_etf = (code.startswith('00') and 4 <= len(code) <= 6)
+            
+            if is_normal_stock or is_etf:
                 tickers.append(f"{code}.TWO")
 
     return tickers
 
 if __name__ == "__main__":
     tw_tickers = get_taiwan_tickers()
-    print(f"✅ 共找到 {len(tw_tickers)} 檔台股標的。")
+    print(f"✅ 共找到 {len(tw_tickers)} 檔台股標的 (包含股票與 ETF)。")
 
     # 存成 my_tickers.txt 給爬蟲讀取
     with open("my_tickers.txt", "w", encoding="utf-8") as f:
