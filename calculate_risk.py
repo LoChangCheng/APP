@@ -4,6 +4,10 @@ import json
 import os
 import glob
 from datetime import datetime
+import warnings
+
+# 關閉煩人的日期格式警告
+warnings.filterwarnings('ignore')
 
 # ==========================================
 # ⚙️ 系統參數設定
@@ -19,28 +23,26 @@ def get_ewma_weights(length):
     return weights / np.sum(weights)
 
 def safe_read_csv(file_path):
-    """🛡️ 防呆機制：安全讀取 CSV 並自動找尋日期欄位"""
+    """🛡️ 終極防呆機制：自動清除 yfinance 產生的髒資料"""
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, low_memory=False)
         if df.empty: return df
         
-        # 嘗試尋找各種可能的日期欄位名稱
         date_col = None
         for col in ['Date', 'Datetime', 'date', 'Unnamed: 0', 'Price']:
             if col in df.columns:
                 date_col = col
                 break
                 
-        # 如果找不到明確的日期名稱，就強制拿「第 0 個欄位」當作日期
         if not date_col:
             date_col = df.columns[0]
             
+        # 轉換日期，無法轉換的字串（例如 'Ticker'）會變成 NaT (Not a Time)
         df[date_col] = pd.to_datetime(df[date_col], errors='coerce')
         df.set_index(date_col, inplace=True)
         
-        # 清除因為 yfinance 改版可能產生的多餘 MultiIndex 空白列
-        if 'Ticker' in df.index:
-            df = df.drop(index='Ticker')
+        # 🌟 核心修正 1：把 index 是 NaT 的髒資料整列砍掉！
+        df = df[df.index.notna()]
             
         return df
     except Exception as e:
@@ -54,9 +56,11 @@ def load_benchmark(symbol):
         bench = safe_read_csv(file_path)
         if bench.empty: return pd.Series(dtype=float)
         
-        # 尋找收盤價欄位
         col = 'Adj Close' if 'Adj Close' in bench.columns else ('Close' if 'Close' in bench.columns else bench.columns[0])
-        return bench[col].astype(float).pct_change().dropna()
+        
+        # 🌟 核心修正 2：強制把欄位轉成數值，如果遇到字串就變成 NaN，然後丟棄
+        prices = pd.to_numeric(bench[col], errors='coerce').dropna()
+        return prices.pct_change().dropna()
     else:
         print(f"⚠️ 找不到基準指數檔案: {symbol}.csv")
         return pd.Series(dtype=float)
@@ -65,11 +69,13 @@ def calculate_metrics(ticker, file_path, bench_returns):
     """計算風險指標"""
     try:
         stock = safe_read_csv(file_path)
-        if stock.empty or len(stock) < 100: 
+        if stock.empty or len(stock) < 50: 
             return None
             
         col = 'Adj Close' if 'Adj Close' in stock.columns else ('Close' if 'Close' in stock.columns else stock.columns[0])
-        prices = stock[col].astype(float).squeeze()
+        
+        # 🌟 核心修正 3：強制數值轉換
+        prices = pd.to_numeric(stock[col], errors='coerce').dropna()
         returns = prices.pct_change().dropna()
         
         if returns.empty: return None
