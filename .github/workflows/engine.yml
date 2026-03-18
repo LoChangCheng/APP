@@ -1,0 +1,46 @@
+name: Market Risk Engine (Fetch + Calc + JSON)
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 15 * * *" # 每天 UTC 15:00 (台灣晚上 23:00) 執行
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy
+
+      - name: 🧠 啟動量化引擎
+        run: python market_engine.py
+
+      - name: 💾 Commit 產出檔案
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 將 CSV 備份資料夾和 JSON 成果都加入追蹤
+          git add raw_market_data/
+          git add risk_lookup.json
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "📈 更新全市場風險指標 JSON"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "今天已經更新過了，沒有新資料。"
+          fi
