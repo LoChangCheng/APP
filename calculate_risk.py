@@ -10,44 +10,76 @@ from datetime import datetime
 # ==========================================
 LAMBDA_DECAY = 0.94
 VAR_PERCENTILE = 0.05
-INPUT_DIR = "raw_market_data"    # 讀取剛剛抓好的 CSV 資料夾
-OUTPUT_FILE = "risk_lookup.json" # 輸出給 APP 讀取的 JSON
+INPUT_DIR = "raw_market_data"
+OUTPUT_FILE = "risk_lookup.json"
 
 def get_ewma_weights(length):
     days_ago = np.arange(length - 1, -1, -1)
     weights = np.power(LAMBDA_DECAY, days_ago)
     return weights / np.sum(weights)
 
+def safe_read_csv(file_path):
+    """🛡️ 防呆機制：安全讀取 CSV 並自動找尋日期欄位"""
+    try:
+        df = pd.read_csv(file_path)
+        if df.empty: return df
+        
+        # 嘗試尋找各種可能的日期欄位名稱
+        date_col = None
+        for col in ['Date', 'Datetime', 'date', 'Unnamed: 0', 'Price']:
+            if col in df.columns:
+                date_col = col
+                break
+                
+        # 如果找不到明確的日期名稱，就強制拿「第 0 個欄位」當作日期
+        if not date_col:
+            date_col = df.columns[0]
+            
+        df[date_col] = pd.to_datetime(df[date_col], errors='coerce')
+        df.set_index(date_col, inplace=True)
+        
+        # 清除因為 yfinance 改版可能產生的多餘 MultiIndex 空白列
+        if 'Ticker' in df.index:
+            df = df.drop(index='Ticker')
+            
+        return df
+    except Exception as e:
+        print(f"讀取 {file_path} 發生錯誤: {e}")
+        return pd.DataFrame()
+
 def load_benchmark(symbol):
-    """直接從 CSV 讀取大盤數據"""
+    """讀取大盤數據"""
     file_path = os.path.join(INPUT_DIR, f"{symbol}.csv")
     if os.path.exists(file_path):
-        bench = pd.read_csv(file_path, index_col='Date', parse_dates=True)
-        col = 'Adj Close' if 'Adj Close' in bench.columns else 'Close'
-        return bench[col].pct_change().dropna()
+        bench = safe_read_csv(file_path)
+        if bench.empty: return pd.Series(dtype=float)
+        
+        # 尋找收盤價欄位
+        col = 'Adj Close' if 'Adj Close' in bench.columns else ('Close' if 'Close' in bench.columns else bench.columns[0])
+        return bench[col].astype(float).pct_change().dropna()
     else:
-        print(f"⚠️ 找不到基準指數檔案: {symbol}.csv，這會影響 Beta 計算")
+        print(f"⚠️ 找不到基準指數檔案: {symbol}.csv")
         return pd.Series(dtype=float)
 
 def calculate_metrics(ticker, file_path, bench_returns):
-    """讀取單一 CSV 並計算風險指標"""
+    """計算風險指標"""
     try:
-        stock = pd.read_csv(file_path, index_col='Date', parse_dates=True)
+        stock = safe_read_csv(file_path)
         if stock.empty or len(stock) < 100: 
             return None
             
-        col = 'Adj Close' if 'Adj Close' in stock.columns else 'Close'
-        prices = stock[col].squeeze()
+        col = 'Adj Close' if 'Adj Close' in stock.columns else ('Close' if 'Close' in stock.columns else stock.columns[0])
+        prices = stock[col].astype(float).squeeze()
         returns = prices.pct_change().dropna()
         
         if returns.empty: return None
 
-        # 1. 歷史最大回撤 (MDD)
+        # 1. MDD
         rolling_max = prices.cummax()
         drawdowns = (prices - rolling_max) / rolling_max
         mdd = drawdowns.min()
 
-        # 2. EWMA 時間加權
+        # 2. EWMA
         T = len(returns)
         weights = get_ewma_weights(T)
         df_sim = pd.DataFrame({'Return': returns.values, 'Weight': weights})
@@ -61,7 +93,7 @@ def calculate_metrics(ticker, file_path, bench_returns):
         tail_events = df_sorted.iloc[:var_idx]
         cvar_95 = np.average(tail_events['Return'], weights=tail_events['Weight']) if len(tail_events) > 0 else var_95
             
-        # 4. DownVol (下行波動率)
+        # 4. DownVol
         down_days = df_sim[df_sim['Return'] < 0]
         if len(down_days) > 0:
             down_weights = down_days['Weight'] / down_days['Weight'].sum()
@@ -78,8 +110,8 @@ def calculate_metrics(ticker, file_path, bench_returns):
         
         if T_align > 50:
             w_align = get_ewma_weights(T_align)
-            stock_rets = aligned['Stock'].astype(float).values
-            bench_rets = aligned['Bench'].astype(float).values
+            stock_rets = aligned['Stock'].values
+            bench_rets = aligned['Bench'].values
             cov = np.sum(w_align * stock_rets * bench_rets)
             var_bench = np.sum(w_align * bench_rets**2)
             beta = cov / var_bench if var_bench > 0 else 1.0
@@ -102,23 +134,22 @@ def calculate_metrics(ticker, file_path, bench_returns):
 def main():
     print("🚀 啟動 AP 本地端量化引擎 (直接讀取 CSV)")
     
-    # 預先載入大盤作為 Benchmark
     bench_tw = load_benchmark('^TWII')
     bench_us = load_benchmark('^GSPC')
 
     risk_db = {}
-    
-    # 掃描資料夾內所有的 CSV 檔案
     csv_files = glob.glob(os.path.join(INPUT_DIR, "*.csv"))
     print(f"📂 找到 {len(csv_files)} 個 CSV 檔案，準備運算...")
     
     for file_path in csv_files:
         ticker = os.path.basename(file_path).replace(".csv", "")
+        # 如果是大盤本身就不算自己的風險指標
+        if ticker in ["^TWII", "^GSPC"]:
+            continue
+            
         print(f"🔍 正在運算: {ticker:<10} ...", end=" ")
         
-        # 判斷要用台股還是美股大盤
-        bench_ret = bench_tw if ticker.endswith((".TW", ".TWO")) or ticker == "^TWII" else bench_us
-        
+        bench_ret = bench_tw if ticker.endswith((".TW", ".TWO")) else bench_us
         result = calculate_metrics(ticker, file_path, bench_ret)
         
         if result:
