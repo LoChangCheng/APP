@@ -76,16 +76,26 @@ def fetch_historical_data(tickers):
 
     print("-" * 50)
     print(f"🎉 爬蟲任務結束！本次成功抓取/更新了 {success_count} 檔標的。")
+def load_tickers_from_file(filepath):
+    """從 txt 檔案中讀取股票代號清單"""
+    if not os.path.exists(filepath):
+        print(f"⚠️ 找不到 {filepath}，請建立一個包含股票代號的檔案。")
+        return []
+        
+    with open(filepath, 'r', encoding='utf-8') as f:
+        # 讀取每一行，去掉前後空白，並過濾掉空行
+        tickers = [line.strip() for line in f.readlines() if line.strip()]
+    return tickers
 
 if __name__ == "__main__":
     setup_environment()
     
-    # 📝 測試用清單：台股大盤、美股大盤、幾檔權值股與高波動股
-    # 實務上，您可以讓程式去讀取一個包含 6000 檔代號的 txt 或 csv 檔
-    sample_tickers = [
-        "^TWII", "^GSPC",   # 大盤基準指數 (必備)
-        "2330.TW", "2317.TW", "2603.TW", # 台股 (後綴 .TW)
-        "AAPL", "TSLA", "NVDA", "MSTR"   # 美股
-    ]
+    # 【改變做法】從外部檔案讀取清單
+    ticker_file = "my_tickers.txt"
     
-    fetch_historical_data(sample_tickers)
+    tickers_to_fetch = load_tickers_from_file(ticker_file)
+    
+    if len(tickers_to_fetch) > 0:
+        fetch_historical_data(tickers_to_fetch)
+    else:
+        print("沒有讀取到任何股票代號，程式結束。")
