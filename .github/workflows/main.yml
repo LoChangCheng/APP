@@ -27,28 +27,29 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas
+          # 加入 requests 與 lxml (pandas 抓網頁表格會用到)
+          pip install yfinance pandas requests lxml
+
+      # 👇 加入這個新步驟，先產生台股清單
+      - name: 📝 Update Tickers List
+        run: python get_tw_tickers.py
 
       - name: 🚀 Run crawler script
         run: python crawler.py
 
-      - name: Commit results
+      - name: 💾 Commit and Push changes
         run: |
-          git config --global user.name "LoChangCheng"
-          git config --global user.email "610630112@gms.tku.edu.tw"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 👇 關鍵修正：把舊的 data/finance.json 改成追蹤新的資料夾
+          # 將 CSV 資料夾和清單檔案都加入追蹤
           git add raw_market_data/
+          git add my_tickers.txt
           
-          # 檢查是否有檔案更動
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "📊 update daily market data"
-            
-            # 先拉取遠端進度避免衝突
+            git commit -m "📊 update daily market data and tickers"
             git pull --rebase origin main
-            
-            # 推送上去
             git push origin main
           else
-            echo "No changes to commit"
+            echo "沒有新的數據需要更新。"
           fi
