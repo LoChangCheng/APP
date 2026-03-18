@@ -1,0 +1,58 @@
+name: Update Taiwan Stock Tickers
+
+on:
+  # 允許你在 GitHub 網頁上手動點擊 "Run workflow" 測試
+  workflow_dispatch:
+  
+  # 設定自動排程 (選用)：例如每週六早上 6 點自動更新一次清單
+  # 確保如果有新公司上市，你的清單也能自動跟上
+  schedule:
+    - cron: "0 22 * * 5" # UTC 時間週五 22:00 = 台灣時間週六 06:00
+
+jobs:
+  update-tickers:
+    runs-on: ubuntu-latest
+    
+    # 允許 Action 將 my_tickers.txt 寫入並推回你的 Repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # 注意：pandas 的 read_html 需要安裝 lxml 或 html5lib 解析器
+          pip install pandas requests lxml html5lib
+
+      - name: 🚀 執行台股代號爬蟲
+        run: python get_tw_tickers.py
+
+      - name: 💾 Commit and Push changes
+        run: |
+          # 設定 Git 機器人身分
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 將產生的 txt 檔案加入追蹤
+          git add my_tickers.txt
+          
+          # 檢查清單是否有變動 (例如有新股票上市或下市)
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "📝 自動更新台股代號清單 (包含 ETF/特別股/ETN/REITs)"
+            
+            # 先拉取遠端最新代碼合併，避免 Push 失敗
+            git pull --rebase origin main
+            
+            # 推送到 main 分支
+            git push origin main
+          else
+            echo "✅ 股票清單與目前版本相同，無須更新。"
+          fi
