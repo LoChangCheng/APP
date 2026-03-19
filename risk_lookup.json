@@ -20588,5 +20588,40 @@
     "down_vol": 5.24,
     "beta": 0.08,
     "last_updated": "2026-03-19"
+  },
+  "NQ": {
+    "beta": 1.3,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "ES": {
+    "beta": 1.0,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "RTY": {
+    "beta": 1.4,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "YM": {
+    "beta": 1.0,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "GC": {
+    "beta": -0.1,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "CL": {
+    "beta": 0.3,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
+  },
+  "TX": {
+    "beta": 1.1,
+    "data_quality": "ok",
+    "last_updated": "2026-03-19"
   }
 }
