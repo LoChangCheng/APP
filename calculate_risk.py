@@ -12,51 +12,69 @@ warnings.filterwarnings('ignore')
 # ==========================================
 # ⚙️ 系統參數設定
 # ==========================================
-LAMBDA_DECAY = 0.94      # RiskMetrics 指數衰減係數 (用於 VaR/CVaR/DownVol)
-VAR_PERCENTILE = 0.05    # 95% 信心水準
-LOOKBACK_YEARS = 5       # 總回測歷史長度
+LAMBDA_DECAY = 0.94      
+VAR_PERCENTILE = 0.05    
+LOOKBACK_YEARS = 5       
 OUTPUT_FILE = "risk_lookup.json"
 
 def get_ewma_weights(length):
-    """產生 EWMA 指數衰減權重 (用於短期風險預測)"""
     days_ago = np.arange(length - 1, -1, -1)
     weights = np.power(LAMBDA_DECAY, days_ago)
     return weights / np.sum(weights)
 
+def extract_price_series(df):
+    """🛡️ 強健提取價格序列，抵抗 yfinance 新版 MultiIndex 與欄位缺失問題"""
+    if df.empty:
+        return pd.Series(dtype=float)
+    
+    # 1. 處理 yfinance 新版的 MultiIndex (把 Ticker 層級拔掉)
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+        
+    # 2. 尋找收盤價欄位 (優先找 Adj Close，沒有就找 Close)
+    if 'Adj Close' in df.columns:
+        target_col = 'Adj Close'
+    elif 'Close' in df.columns:
+        target_col = 'Close'
+    else:
+        target_col = df.columns[0] # 真找不到就拿第一欄
+        
+    prices = df[target_col]
+    
+    # 3. 如果拔掉層級後變成 DataFrame (欄位名重複)，強制取第一欄
+    if isinstance(prices, pd.DataFrame):
+        prices = prices.iloc[:, 0]
+        
+    return pd.to_numeric(prices, errors='coerce').dropna()
+
 def fetch_benchmark_prices(symbol):
-    """抓取基準指數的 5 年『每日收盤價』"""
     print(f"📥 正在下載基準指數: {symbol}")
     bench = yf.download(symbol, period=f"{LOOKBACK_YEARS}y", progress=False)
-    if bench.empty:
-        return pd.Series(dtype=float)
-    return bench['Adj Close'].squeeze()
+    return extract_price_series(bench)
 
 def calculate_metrics(ticker, bench_prices):
-    """核心演算法：計算單一標的之量化風險指標"""
     try:
-        # 1. 抓取 5 年歷史價格數據
         stock = yf.download(ticker, period=f"{LOOKBACK_YEARS}y", progress=False)
         if stock.empty or len(stock) < 100: 
             return None 
             
-        prices = stock['Adj Close'].squeeze()
+        prices = extract_price_series(stock)
         
-        # 準備日頻率報酬 (給 VaR, CVaR, DownVol 使用)
         daily_returns = prices.pct_change().dropna()
         if daily_returns.empty:
             return None
 
-        # 2. 歷史最大回撤 (MDD) - 看長線 5 年絕對值
+        # MDD
         rolling_max = prices.cummax()
         drawdowns = (prices - rolling_max) / rolling_max
         mdd = drawdowns.min()
 
-        # 3. 準備 EWMA 時間加權 (極度重視近期市況)
+        # EWMA
         T = len(daily_returns)
         weights = get_ewma_weights(T)
         df_sim = pd.DataFrame({'Return': daily_returns.values, 'Weight': weights})
         
-        # 4. VaR & CVaR 95% (黑天鵝尾部風險預估)
+        # VaR & CVaR 
         df_sorted = df_sim.sort_values(by='Return').reset_index(drop=True)
         df_sorted['CumWeight'] = df_sorted['Weight'].cumsum()
         
@@ -69,7 +87,7 @@ def calculate_metrics(ticker, bench_prices):
         else:
             cvar_95 = var_95
             
-        # 5. DownVol (下行波動率)
+        # DownVol 
         down_days = df_sim[df_sim['Return'] < 0]
         if len(down_days) > 0:
             down_weights = down_days['Weight'] / down_days['Weight'].sum()
@@ -78,24 +96,17 @@ def calculate_metrics(ticker, bench_prices):
         else:
             down_vol = 0
             
-        # ==========================================
-        # 6. 業界標準 Beta (Bloomberg Methodology)
-        # ==========================================
-        # 對齊標的與大盤的價格資料
+        # Beta (Bloomberg Methodology)
         aligned_prices = pd.concat([prices, bench_prices], axis=1, join='inner').dropna()
         aligned_prices.columns = ['Stock', 'Bench']
         
-        # 鐵律一：截取近 2 年資料 (約 504 個交易日)
         aligned_2y = aligned_prices.tail(504)
         
         if len(aligned_2y) > 50:
-            # 鐵律二：重採樣為每週末 (W-FRI) 收盤價，並計算週報酬率
             weekly_prices = aligned_2y.resample('W-FRI').last()
             weekly_returns = weekly_prices.pct_change().dropna()
             
             if len(weekly_returns) > 10:
-                # 鐵律三：OLS 常態共變異數矩陣
-                # 💡 防呆優化：加上 .values 確保傳入純 NumPy 陣列，避免 Pandas 索引報錯
                 cov_matrix = np.cov(weekly_returns['Stock'].values, weekly_returns['Bench'].values)
                 cov_sb = cov_matrix[0, 1] 
                 var_b = cov_matrix[1, 1]  
@@ -105,7 +116,6 @@ def calculate_metrics(ticker, bench_prices):
         else:
             beta = 1.0
 
-        # 封裝 JSON (加入 DB 所需的 name 欄位)
         custom_name = ""
         if "2330.TW" in ticker: custom_name = "台積電"
         elif "0050.TW" in ticker: custom_name = "元大台灣50"
@@ -140,7 +150,6 @@ def main():
     bench_tw_prices = fetch_benchmark_prices('^TWII')
     bench_us_prices = fetch_benchmark_prices('^GSPC')
 
-# 🌟 正式上線的寫法：讀取你辛苦抓下來的全市場清單
     target_tickers = []
     if os.path.exists("my_tickers.txt"):
         with open("my_tickers.txt", "r", encoding="utf-8") as f:
@@ -154,9 +163,8 @@ def main():
     count = 0
     
     for ticker in target_tickers:
-        # 開發測試期間如果需要強制重算，可將下方兩行註解掉
-        # if ticker in risk_db and risk_db[ticker].get("last_updated") == today_str:
-        #     continue
+        if ticker in risk_db and risk_db[ticker].get("last_updated") == today_str:
+            continue
             
         print(f"🔍 正在運算: {ticker:<10} ...", end=" ")
         
