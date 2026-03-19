@@ -17931,8 +17931,10 @@
     "var_95": -3.12,
     "cvar_95": -4.07,
     "down_vol": 31.31,
-    "beta": 2.08,
-    "last_updated": "2026-03-19"
+    "beta": -0.41,
+    "last_updated": "2026-03-19",
+    "raw_beta": -1.11,
+    "data_quality": "ok (derived proxy)"
   },
   "00633L.TW": {
     "name": "",
