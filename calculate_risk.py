@@ -227,6 +227,28 @@ def main():
                     
         time.sleep(0.2)
 
+# ────────────────────────────────────────
+    # 🌟 特殊標的聯動校正 (Post-processing)
+    # ────────────────────────────────────────
+    if "0050.TW" in risk_db and "00632R.TW" in risk_db:
+        # 1. 取出 0050 乾淨的原始 Beta
+        raw_0050 = risk_db["0050.TW"]["raw_beta"]
+        
+        # 2. 反1 的理論 Raw Beta 是 0050 的完全反向
+        raw_inv = -raw_0050
+        
+        # 3. 重新套用 Bloomberg 平滑公式
+        adj_inv = ADJUST_ALPHA * raw_inv + (1 - ADJUST_ALPHA) * 1.0
+        
+        # 4. 覆蓋 00632R 的怪異 Beta (保留它自己真實的 MDD, VaR 等下行風險數據)
+        risk_db["00632R.TW"]["raw_beta"] = round(float(raw_inv), 2)
+        risk_db["00632R.TW"]["beta"] = round(float(adj_inv), 2)
+        
+        # 標記品質為 proxy (代表這是用母體推導出來的安全數據)
+        risk_db["00632R.TW"]["data_quality"] = "ok (derived proxy)"
+        print(f"\n🔧 [自動校正] 已將 00632R.TW 的 Beta 校正為 0050 的反向: {round(adj_inv, 2)}")
+
+    # 5. 最終存檔
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(risk_db, f, ensure_ascii=False, indent=2)
         
