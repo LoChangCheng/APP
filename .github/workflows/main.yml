@@ -21,9 +21,10 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy
+          # ⚠️ 關鍵修改：必須把 yfinance 加回來
+          pip install yfinance pandas numpy
 
-      - name: 🧠 執行量化運算 (讀取 CSV -> 產出 JSON)
+      - name: 🧠 執行量化運算 (API 抓取計算 -> 產出 JSON)
         run: python calculate_risk.py
 
       - name: 💾 Commit 產出的 JSON
@@ -34,7 +35,8 @@ jobs:
           git add risk_lookup.json
           
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "🧪 測試：產出風險指標 JSON"
+            # 順便更新一下 commit 訊息，讓紀錄看起來更專業
+            git commit -m "📊 更新：全市場風險指標 JSON (Bloomberg Beta升級版)"
             git pull --rebase origin main
             git push origin main
           else
