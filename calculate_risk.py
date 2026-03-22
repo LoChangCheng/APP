@@ -92,7 +92,15 @@ def extract_price_series(df):
     if isinstance(prices, pd.DataFrame):
         prices = prices.iloc[:, 0]
         
-    return pd.to_numeric(prices, errors='coerce').dropna()
+    prices = pd.to_numeric(prices, errors='coerce').dropna()
+    
+    # 強制移除時區並標準化時間，避免 pd.concat 因時區不同而變成空 DataFrame
+    if isinstance(prices.index, pd.DatetimeIndex):
+        if prices.index.tz is not None:
+            prices.index = prices.index.tz_localize(None)
+        prices.index = prices.index.normalize()
+        
+    return prices
 
 def fetch_benchmark_prices(symbol):
     print(f"📥 正在下載基準指數: {symbol}")
@@ -201,24 +209,27 @@ def calculate_metrics(ticker, bench_prices):
             
         # 4. Bloomberg Adjusted Beta：近 3 年週報酬
         aligned_prices = pd.concat([prices, bench_prices], axis=1, join='inner').dropna()
-        aligned_prices.columns = ['Stock', 'Bench']
 
-        three_years_ago = aligned_prices.index[-1] - pd.DateOffset(years=3)
-        aligned_3y = aligned_prices[aligned_prices.index >= three_years_ago]
-        
-        if len(aligned_3y) > 50:
-            weekly_prices = aligned_3y.resample('W-FRI').last()
-            weekly_returns = weekly_prices.pct_change().dropna()
+        if aligned_prices.empty:
+            raw_beta = 1.0
+        else:
+            aligned_prices.columns = ['Stock', 'Bench']
+            three_years_ago = aligned_prices.index[-1] - pd.DateOffset(years=3)
+            aligned_3y = aligned_prices[aligned_prices.index >= three_years_ago]
             
-            if len(weekly_returns) > 10:
-                cov_matrix = np.cov(weekly_returns['Stock'].values, weekly_returns['Bench'].values)
-                cov_sb = cov_matrix[0, 1] 
-                var_b = cov_matrix[1, 1]  
-                raw_beta = cov_sb / var_b if var_b > 0 else 1.0
+            if len(aligned_3y) > 50:
+                weekly_prices = aligned_3y.resample('W-FRI').last()
+                weekly_returns = weekly_prices.pct_change().dropna()
+                
+                if len(weekly_returns) > 10:
+                    cov_matrix = np.cov(weekly_returns['Stock'].values, weekly_returns['Bench'].values)
+                    cov_sb = cov_matrix[0, 1] 
+                    var_b = cov_matrix[1, 1]  
+                    raw_beta = cov_sb / var_b if var_b > 0 else 1.0
+                else:
+                    raw_beta = 1.0
             else:
                 raw_beta = 1.0
-        else:
-            raw_beta = 1.0
             
         adj_beta = ADJUST_ALPHA * raw_beta + (1 - ADJUST_ALPHA) * 1.0
         quality = assess_quality(mdd, down_vol, var_95, cvar_95)
