@@ -1,0 +1,49 @@
+name: US Market Data Crawler
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 10 * * 6" # 每週六早上 10:00 (UTC) 執行。建議只在週末執行一次，避免每日海量更新拖垮 Git Repo。
+
+jobs:
+  run-us-crawler:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas requests
+
+      - name: 🇺🇸 抓取美股代號清單 (SEC 官方發布)
+        run: python get_us_tickers.py
+
+      - name: 🚀 啟動美股歷史資料爬蟲 (嚴格 0.5 秒間隔)
+        run: python crawler_us.py
+
+      - name: 💾 Commit 產出檔案
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add us_tickers.txt
+          git add raw_us_market_data/
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "📊 更新美股代號清單與歷史價格 CSV"
+            # 若爬蟲執行時間長，遠端可能有新 commit，先 rebase 再推
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ 沒有新的美股資料需要更新。"
+          fi
