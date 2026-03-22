@@ -12,9 +12,9 @@ warnings.filterwarnings('ignore')
 # ==========================================
 # ⚙️ 系統參數設定
 # ==========================================
-LAMBDA_DECAY = 0.94      
-VAR_PERCENTILE = 0.05    
-LOOKBACK_YEARS = 5       
+LAMBDA_DECAY = 0.94  
+VAR_PERCENTILE = 0.05  
+LOOKBACK_YEARS = 5  
 OUTPUT_FILE = "risk_lookup.json"
 
 # Bloomberg Beta 設定
@@ -22,15 +22,51 @@ ADJUST_ALPHA = 0.67
 
 # 數據品質過濾閾值
 QUALITY_RULES = {
-    "mdd_delisted":      -99.0,    # MDD <= -99% → 視為下市或極端壁紙
-    "down_vol_max":       100.0,   # 年化下行波動率上限
-    "cvar_var_ratio_max":   3.0,   # CVaR / VaR 比值上限 (放寬一點避免誤殺)
+    "mdd_delisted":      -99.0,
+    "down_vol_max":       100.0,
+    "cvar_var_ratio_max":   3.0,
 }
 
-# 靜態期貨 Beta (若遇到這些代號直接給定)
+# 靜態期貨 Beta
 FUTURE_BETA_MAP = {
     "NQ":  1.3, "ES":  1.0, "RTY": 1.4, "YM":  1.0,
     "GC": -0.1, "CL":  0.3, "TX":  1.1,
+}
+
+# 💡 反向 ETF：(對應標的, 倍數)
+INVERSE_ETF_MAP = {
+    # 台股
+    "00632R.TW": ("0050.TW", -1.0),
+    # 美股
+    "PSQ":       ("QQQ",     -1.0),
+    "SH":        ("SPY",     -1.0),
+    "DOG":       ("DIA",     -1.0),
+    "RWM":       ("IWM",     -1.0),
+}
+
+# 💡 槓桿 ETF：(對應標的, 倍數)
+LEVERAGED_ETF_MAP = {
+    # 台股
+    "00631L.TW": ("0050.TW",  2.0),
+    # 美股 2x
+    "QLD":       ("QQQ",      2.0),
+    "SSO":       ("SPY",      2.0),
+    "DDM":       ("DIA",      2.0),
+    "UWM":       ("IWM",      2.0),
+    # 美股 3x
+    "TQQQ":      ("QQQ",      3.0),
+    "SQQQ":      ("QQQ",     -3.0),
+    "SPXL":      ("SPY",      3.0),
+    "SPXS":      ("SPY",     -3.0),
+    "UPRO":      ("SPY",      3.0),
+    "SOXL":      ("SOXX",     3.0),
+    "SOXS":      ("SOXX",    -3.0),
+    "TNA":       ("IWM",      3.0),
+    "TZA":       ("IWM",     -3.0),
+    "LABU":      ("XBI",      3.0),
+    "LABD":      ("XBI",     -3.0),
+    "NUGT":      ("GDX",      2.0),
+    "DUST":      ("GDX",     -2.0),
 }
 
 # ────────────────────────────────────────
@@ -47,11 +83,11 @@ def extract_price_series(df):
     if df.empty: return pd.Series(dtype=float)
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
-        
+
     if 'Adj Close' in df.columns: target_col = 'Adj Close'
     elif 'Close' in df.columns: target_col = 'Close'
     else: target_col = df.columns[0]
-        
+    
     prices = df[target_col]
     if isinstance(prices, pd.DataFrame):
         prices = prices.iloc[:, 0]
@@ -64,7 +100,6 @@ def fetch_benchmark_prices(symbol):
     return extract_price_series(bench)
 
 def assess_quality(mdd, down_vol, var_95, cvar_95):
-    """評估數據品質，供前端顯示警示用"""
     if mdd <= QUALITY_RULES["mdd_delisted"]:
         return "delisted"
     if abs(down_vol) > QUALITY_RULES["down_vol_max"]:
@@ -86,18 +121,50 @@ def calculate_metrics(ticker, bench_prices):
             "beta": FUTURE_BETA_MAP[ticker.upper()],
             "data_quality": "ok",
             "last_updated": datetime.now().strftime("%Y-%m-%d")
-        }
+        }, True
 
     try:
-        stock = yf.download(ticker, period=f"{LOOKBACK_YEARS}y", progress=False)
+        is_cached = False
+        stock = pd.DataFrame()
+        us_path = os.path.join("raw_us_market_data", f"{ticker}.csv")
+        tw_path = os.path.join("raw_market_data", f"{ticker}.csv")
+        
+        if os.path.exists(us_path):
+            stock = pd.read_csv(us_path, index_col=0, parse_dates=True)
+            is_cached = True
+            print("📁 [US快取]", end=" ")
+        elif os.path.exists(tw_path):
+            stock = pd.read_csv(tw_path, index_col=0, parse_dates=True)
+            is_cached = True
+            print("📁 [TW快取]", end=" ")
+
+        # 🕵️ 防禦機制 1：檢查快取是否過期 (以 7 天為安全閥值)
+        if is_cached and not stock.empty:
+            last_date = pd.to_datetime(stock.index[-1])
+            if (datetime.now() - last_date).days > 7:
+                print("⚠️ [快取過期，轉為連線]", end=" ")
+                is_cached = False
+                stock = pd.DataFrame()
+        
+        # 🕵️ 防禦機制 2：若無快取或快取被認定無效/殘缺，強制觸發 Yahoo 連線
+        if stock.empty or len(stock) < 100:
+            if is_cached:
+                print("⚠️ [資料殘缺，轉為連線]", end=" ")
+                is_cached = False
+            else:
+                print("🌐 [線上抓取]", end=" ")
+            
+            stock = yf.download(ticker, period=f"{LOOKBACK_YEARS}y", progress=False)
+
+        # 最終若還是抓不到或資料依然不夠，才會真的放棄此檔
         if stock.empty or len(stock) < 100: 
-            return None 
+            return None, is_cached 
             
         prices = extract_price_series(stock)
         daily_returns = prices.pct_change().dropna()
         if daily_returns.empty: return None
 
-        # 1. MDD (換算成百分比整數)
+        # 1. MDD
         rolling_max = prices.cummax()
         drawdowns = (prices - rolling_max) / rolling_max
         mdd_raw = drawdowns.min()
@@ -132,13 +199,15 @@ def calculate_metrics(ticker, bench_prices):
             down_vol_raw = 0
         down_vol = round(float(down_vol_raw) * 100, 2)
             
-        # 4. Bloomberg Adjusted Beta
+        # 4. Bloomberg Adjusted Beta：近 3 年週報酬
         aligned_prices = pd.concat([prices, bench_prices], axis=1, join='inner').dropna()
         aligned_prices.columns = ['Stock', 'Bench']
-        aligned_2y = aligned_prices.tail(504) # 取近兩年
+
+        three_years_ago = aligned_prices.index[-1] - pd.DateOffset(years=3)
+        aligned_3y = aligned_prices[aligned_prices.index >= three_years_ago]
         
-        if len(aligned_2y) > 50:
-            weekly_prices = aligned_2y.resample('W-FRI').last()
+        if len(aligned_3y) > 50:
+            weekly_prices = aligned_3y.resample('W-FRI').last()
             weekly_returns = weekly_prices.pct_change().dropna()
             
             if len(weekly_returns) > 10:
@@ -151,35 +220,31 @@ def calculate_metrics(ticker, bench_prices):
         else:
             raw_beta = 1.0
             
-        # 🌟 套用 Bloomberg 調整公式
         adj_beta = ADJUST_ALPHA * raw_beta + (1 - ADJUST_ALPHA) * 1.0
-
-        # 5. 評估數據品質
         quality = assess_quality(mdd, down_vol, var_95, cvar_95)
 
-        # 封裝 JSON
         return {
             "mdd": mdd,
             "var_95": var_95,
             "cvar_95": cvar_95,
             "down_vol": down_vol,
             "raw_beta": round(float(raw_beta), 2),
-            "beta": round(float(adj_beta), 2), # APP 預設讀取這個 Adjusted Beta
+            "beta": round(float(adj_beta), 2),
             "data_quality": quality,
             "last_updated": datetime.now().strftime("%Y-%m-%d")
-        }
+        }, is_cached
 
     except Exception as e:
         print(f"⚠️ {ticker} 運算失敗: {e}")
-        return None
+        return None, False
 
 # ────────────────────────────────────────
 # 主程式
 # ────────────────────────────────────────
 
 def main():
-    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta + 品質過濾版)")
-    
+    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta 3Y週報酬版)")
+
     risk_db = {}
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
@@ -188,66 +253,116 @@ def main():
                 print(f"✅ 成功載入歷史斷點，已完成 {len(risk_db)} 檔標的。")
             except:
                 print("⚠️ json 格式錯誤，重新建立。")
-    
+
     bench_tw_prices = fetch_benchmark_prices('^TWII')
     bench_us_prices = fetch_benchmark_prices('^GSPC')
 
     target_tickers = []
+    
+    # 讀取台股清單
     if os.path.exists("my_tickers.txt"):
         with open("my_tickers.txt", "r", encoding="utf-8") as f:
-            target_tickers = [line.strip() for line in f.readlines() if line.strip()]
-        print(f"📋 共讀取到 {len(target_tickers)} 檔標的準備處理。")
+            tw_tickers = [line.strip() for line in f.readlines() if line.strip()]
+            target_tickers.extend(tw_tickers)
+        print(f"📋 共讀取到 {len(tw_tickers)} 檔台股標的。")
     else:
-        print("⚠️ 找不到 my_tickers.txt，請先執行清單抓取程式！")
+        print("⚠️ 找不到 my_tickers.txt！")
+
+    # 讀取美股清單
+    if os.path.exists("us_tickers.txt"):
+        with open("us_tickers.txt", "r", encoding="utf-8") as f:
+            us_tickers = [line.strip() for line in f.readlines() if line.strip()]
+            target_tickers.extend(us_tickers)
+        print(f"📋 共讀取到 {len(us_tickers)} 檔美股標的。")
+    else:
+        print("⚠️ 找不到 us_tickers.txt，目前僅運算台股。")
+
+    if not target_tickers:
+        print("❌ 沒有讀取到任何標的，程式結束。")
         return
-    
+
+    print(f"✅ 總計準備處理 {len(target_tickers)} 檔標的。")
+
     target_tickers.extend(list(FUTURE_BETA_MAP.keys()))
-    
+
+    # 確保反向/槓桿 ETF 的對應標的一定在清單裡
+    all_underlyings = set()
+    for _, (underlying, _) in INVERSE_ETF_MAP.items():
+        all_underlyings.add(underlying)
+    for _, (underlying, _) in LEVERAGED_ETF_MAP.items():
+        all_underlyings.add(underlying)
+    for u in all_underlyings:
+        if u not in target_tickers:
+            target_tickers.append(u)
+            print(f"📌 自動補入對應標的: {u}")
+
     today_str = datetime.now().strftime("%Y-%m-%d")
     count = 0
-    
+
     for ticker in target_tickers:
         if ticker in risk_db and risk_db[ticker].get("last_updated") == today_str:
             continue
             
-        print(f"🔍 正在運算: {ticker:<10} ...", end=" ")
+        print(f"🔍 正在運算: {ticker:<12} ...", end=" ")
         
         bench_p = bench_tw_prices if ticker.endswith((".TW", ".TWO")) or ticker == "TX" else bench_us_prices
-        result = calculate_metrics(ticker, bench_p)
+        
+        # 解構出運算結果與是否命中快取的標示
+        out = calculate_metrics(ticker, bench_p)
+        result, is_cached = out if out else (None, False)
         
         if result:
             risk_db[ticker] = result
             print(f"完成! (Adj Beta: {result['beta']}, 品質: {result.get('data_quality', 'N/A')})")
             count += 1
             
-            if count % 10 == 0:
+            # 🕵️ 防禦機制 3：降低 I/O 寫入頻率，從 10 改為 500，保護 SSD 與加快極速運算
+            if count % 500 == 0:
                 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
                     json.dump(risk_db, f, ensure_ascii=False, indent=2)
-                    
-        time.sleep(0.2)
+
+        # 🚀【極速運算關鍵】防 rate limit 僅限真實連線 (Yahoo)，讀取本地 CSV 時直接跳過休眠全速衝刺！
+        if not is_cached:
+            if count % 100 == 0 and count > 0:
+                print("⏸️ 防 rate limit 休息 30 秒...")
+                time.sleep(30)
+            elif count % 10 == 0 and count > 0:
+                time.sleep(2)
+            else:
+                time.sleep(0.5)
 
     # ────────────────────────────────────────
-    # 🌟 特殊標的聯動校正 (Post-processing)
+    # 💡 特殊標的聯動校正 (Post-processing)
     # ────────────────────────────────────────
-    if "0050.TW" in risk_db:
-        # 🛡️ 防呆機制：相容舊版 JSON，若無 raw_beta 則取 beta，再沒有就預設 1.0
-        raw_0050 = risk_db["0050.TW"].get("raw_beta", risk_db["0050.TW"].get("beta", 1.0))
-        
-        # 1. 校正 00632R (元大台灣50反1)
-        if "00632R.TW" in risk_db:
-            raw_inv = -raw_0050
-            adj_inv = ADJUST_ALPHA * raw_inv + (1 - ADJUST_ALPHA) * 1.0
-            risk_db["00632R.TW"]["raw_beta"] = round(float(raw_inv), 2)
-            risk_db["00632R.TW"]["beta"] = round(float(adj_inv), 2)
-            risk_db["00632R.TW"]["data_quality"] = "ok (derived proxy)"
-            print(f"\n🔧 [自動校正] 00632R.TW Beta 已校正為 0050 反向: {round(adj_inv, 2)}")
+    print("\n🔧 開始 Beta 聯動校正...")
 
+    # 🌟 數學修正：必須先對「Raw Beta」乘上倍數，再套用 Bloomberg 平滑公式，這樣算出來的 Adjusted Beta 才會正確！
+    def apply_proxy_logic(etf_map, label):
+        for etf, (underlying, multiplier) in etf_map.items():
+            if etf in risk_db and underlying in risk_db:
+                # 取得母體的 Raw Beta (預設為 1.0 防呆)
+                base_raw_beta = risk_db[underlying].get("raw_beta", 1.0)
+                
+                # 計算 ETF 的理論 Raw Beta
+                derived_raw_beta = base_raw_beta * multiplier
+                
+                # 套用 Bloomberg 公式計算最終的 Adj Beta
+                derived_adj_beta = ADJUST_ALPHA * derived_raw_beta + (1 - ADJUST_ALPHA) * 1.0
+                
+                # 寫回 JSON
+                risk_db[etf]["raw_beta"] = round(float(derived_raw_beta), 2)
+                risk_db[etf]["beta"] = round(float(derived_adj_beta), 2)
+                risk_db[etf]["data_quality"] = "ok (derived proxy)"
+                
+                print(f"🔧 [{label}] {etf} 校正完成 👉 Raw: {round(derived_raw_beta, 2)} | Adj Beta: {round(derived_adj_beta, 2)}")
 
-    # 最終存檔
+    apply_proxy_logic(INVERSE_ETF_MAP, "反向校正")
+    apply_proxy_logic(LEVERAGED_ETF_MAP, "槓桿校正")
+
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(risk_db, f, ensure_ascii=False, indent=2)
         
-    print(f"🎉 運算結束！本次新增/更新了 {count} 檔標的。")
+    print(f"\n🎉 運算結束！本次新增/更新了 {count} 檔標的。")
 
 if __name__ == "__main__":
     main()
