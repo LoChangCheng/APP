@@ -33,42 +33,6 @@ FUTURE_BETA_MAP = {
     "GC": -0.1, "CL":  0.3, "TX":  1.1,
 }
 
-# 💡 反向 ETF：(對應標的, 倍數)
-INVERSE_ETF_MAP = {
-    # 台股
-    "00632R.TW": ("0050.TW", -1.0),
-    # 美股
-    "PSQ":       ("QQQ",     -1.0),
-    "SH":        ("SPY",     -1.0),
-    "DOG":       ("DIA",     -1.0),
-    "RWM":       ("IWM",     -1.0),
-}
-
-# 💡 槓桿 ETF：(對應標的, 倍數)
-LEVERAGED_ETF_MAP = {
-    # 台股
-    "00631L.TW": ("0050.TW",  2.0),
-    # 美股 2x
-    "QLD":       ("QQQ",      2.0),
-    "SSO":       ("SPY",      2.0),
-    "DDM":       ("DIA",      2.0),
-    "UWM":       ("IWM",      2.0),
-    # 美股 3x
-    "TQQQ":      ("QQQ",      3.0),
-    "SQQQ":      ("QQQ",     -3.0),
-    "SPXL":      ("SPY",      3.0),
-    "SPXS":      ("SPY",     -3.0),
-    "UPRO":      ("SPY",      3.0),
-    "SOXL":      ("SOXX",     3.0),
-    "SOXS":      ("SOXX",    -3.0),
-    "TNA":       ("IWM",      3.0),
-    "TZA":       ("IWM",     -3.0),
-    "LABU":      ("XBI",      3.0),
-    "LABD":      ("XBI",     -3.0),
-    "NUGT":      ("GDX",      2.0),
-    "DUST":      ("GDX",     -2.0),
-}
-
 # ────────────────────────────────────────
 # 工具函數
 # ────────────────────────────────────────
@@ -263,8 +227,18 @@ def calculate_metrics(ticker, bench_prices, ticker_meta):
 # ────────────────────────────────────────
 
 def main():
-    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta 3Y週報酬版 + 標籤整合)")
-    
+    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta + 標籤整合 + JSON校正版)")
+
+    # 🌟 讀取 ETF 映射表 JSON
+    ETF_PROXY_MAP = {}
+    if os.path.exists("etf_proxy_map.json"):
+        with open("etf_proxy_map.json", "r", encoding="utf-8") as f:
+            try:
+                ETF_PROXY_MAP = json.load(f)
+                print(f"🔗 成功載入 ETF 映射表，共 {len(ETF_PROXY_MAP)} 筆校正規則。")
+            except Exception as e:
+                print(f"⚠️ etf_proxy_map.json 格式錯誤: {e}")
+                
     # 讀取標籤快取
     meta_db = {}
     if os.path.exists("ticker_meta.json"):
@@ -316,16 +290,15 @@ def main():
 
     target_tickers.extend(list(FUTURE_BETA_MAP.keys()))
 
-    # 確保反向/槓桿 ETF 的對應標的一定在清單裡
+    # 🌟 確保所有被當作 Proxy 母體的標的，一定在計算清單裡
     all_underlyings = set()
-    for _, (underlying, _) in INVERSE_ETF_MAP.items():
-        all_underlyings.add(underlying)
-    for _, (underlying, _) in LEVERAGED_ETF_MAP.items():
-        all_underlyings.add(underlying)
+    for etf, info in ETF_PROXY_MAP.items():
+        all_underlyings.add(info["proxy"])
+        
     for u in all_underlyings:
         if u not in target_tickers:
             target_tickers.append(u)
-            print(f"📌 自動補入對應標的: {u}")
+            print(f"📌 自動補入對應母體標的: {u}")
 
     today_str = datetime.now().strftime("%Y-%m-%d")
     count = 0
@@ -366,32 +339,29 @@ def main():
                 time.sleep(0.5)
 
     # ────────────────────────────────────────
-    # 💡 特殊標的聯動校正 (Post-processing)
+    # 💡 特殊標的聯動校正 (讀取 JSON 規則)
     # ────────────────────────────────────────
-    print("\n🔧 開始 Beta 聯動校正...")
+    print("\n🔧 開始特殊 ETF Beta 聯動校正...")
 
-    # 🌟 數學修正：必須先對「Raw Beta」乘上倍數，再套用 Bloomberg 平滑公式，這樣算出來的 Adjusted Beta 才會正確！
-    def apply_proxy_logic(etf_map, label):
-        for etf, (underlying, multiplier) in etf_map.items():
-            if etf in risk_db and underlying in risk_db:
-                # 取得母體的 Raw Beta (預設為 1.0 防呆)
-                base_raw_beta = risk_db[underlying].get("raw_beta", 1.0)
-                
-                # 計算 ETF 的理論 Raw Beta
-                derived_raw_beta = base_raw_beta * multiplier
-                
-                # 套用 Bloomberg 公式計算最終的 Adj Beta
-                derived_adj_beta = ADJUST_ALPHA * derived_raw_beta + (1 - ADJUST_ALPHA) * 1.0
-                
-                # 寫回 JSON (保留它原本在上方迴圈被賦予的 sector 與 industry)
-                risk_db[etf]["raw_beta"] = round(float(derived_raw_beta), 2)
-                risk_db[etf]["beta"] = round(float(derived_adj_beta), 2)
-                risk_db[etf]["data_quality"] = "ok (derived proxy)"
-                
-                print(f"🔧 [{label}] {etf} 校正完成 👉 Raw: {round(derived_raw_beta, 2)} | Adj Beta: {round(derived_adj_beta, 2)}")
-
-    apply_proxy_logic(INVERSE_ETF_MAP, "反向校正")
-    apply_proxy_logic(LEVERAGED_ETF_MAP, "槓桿校正")
+    for etf, info in ETF_PROXY_MAP.items():
+        underlying = info["proxy"]
+        multiplier = info["multiplier"]
+        
+        if etf in risk_db and underlying in risk_db:
+            base_raw_beta = risk_db[underlying].get("raw_beta", 1.0)
+            
+            # 依據倍數計算理論值
+            derived_raw_beta = base_raw_beta * multiplier
+            derived_adj_beta = ADJUST_ALPHA * derived_raw_beta + (1 - ADJUST_ALPHA) * 1.0
+            
+            # 寫入校正結果
+            risk_db[etf]["raw_beta"] = round(float(derived_raw_beta), 2)
+            risk_db[etf]["beta"] = round(float(derived_adj_beta), 2)
+            risk_db[etf]["data_quality"] = "ok (derived proxy)"
+            
+            # 給 Log 換個標籤顯示
+            label = "反向" if multiplier < 0 else "槓桿"
+            print(f"🔧 [{label}校正] {etf} (母體: {underlying} x {multiplier}) 👉 Adj Beta: {round(derived_adj_beta, 2)}")
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(risk_db, f, ensure_ascii=False, indent=2)
