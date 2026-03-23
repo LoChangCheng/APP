@@ -127,12 +127,14 @@ def assess_quality(mdd, down_vol, var_95, cvar_95):
 # 核心演算法
 # ────────────────────────────────────────
 
-def calculate_metrics(ticker, bench_prices):
+def calculate_metrics(ticker, bench_prices, ticker_meta):
     # 處理靜態期貨
     if ticker.upper() in FUTURE_BETA_MAP:
         return {
             "beta": FUTURE_BETA_MAP[ticker.upper()],
             "data_quality": "ok",
+            "sector": "Futures",
+            "industry": "Commodities/Indices",
             "last_updated": datetime.now().strftime("%Y-%m-%d")
         }, True
 
@@ -246,6 +248,8 @@ def calculate_metrics(ticker, bench_prices):
             "down_vol": down_vol,
             "raw_beta": round(float(raw_beta), 2),
             "beta": round(float(adj_beta), 2),
+            "sector": ticker_meta.get("sector", "Unknown"),
+            "industry": ticker_meta.get("industry", "Unknown"),
             "data_quality": quality,
             "last_updated": datetime.now().strftime("%Y-%m-%d")
         }, is_cached
@@ -259,14 +263,25 @@ def calculate_metrics(ticker, bench_prices):
 # ────────────────────────────────────────
 
 def main():
-    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta 3Y週報酬版)")
+    print("🚀 啟動 AP 雲端量化引擎 (Bloomberg Beta 3Y週報酬版 + 標籤整合)")
+    
+    # 讀取標籤快取
+    meta_db = {}
+    if os.path.exists("ticker_meta.json"):
+        with open("ticker_meta.json", "r", encoding="utf-8") as f:
+            try:
+                meta_db = json.load(f)
+                print(f"🏷️ 成功載入標籤資料庫，共 {len(meta_db)} 筆。")
+            except:
+                print("⚠️ ticker_meta.json 格式錯誤。")
 
+    # 讀取風險快取
     risk_db = {}
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
             try:
                 risk_db = json.load(f)
-                print(f"✅ 成功載入歷史斷點，已完成 {len(risk_db)} 檔標的。")
+                print(f"✅ 成功載入風險歷史斷點，已完成 {len(risk_db)} 檔標的。")
             except:
                 print("⚠️ json 格式錯誤，重新建立。")
 
@@ -323,8 +338,11 @@ def main():
         
         bench_p = bench_tw_prices if ticker.endswith((".TW", ".TWO")) or ticker == "TX" else bench_us_prices
         
-        # 解構出運算結果與是否命中快取的標示
-        out = calculate_metrics(ticker, bench_p)
+        # 從標籤庫提取該檔股票的 meta (若無則預設 Unknown)
+        ticker_meta = meta_db.get(ticker, {"sector": "Unknown", "industry": "Unknown"})
+        
+        # 解構出運算結果與是否命中快取的標示，並傳入 ticker_meta
+        out = calculate_metrics(ticker, bench_p, ticker_meta)
         result, is_cached = out if out else (None, False)
         
         if result:
@@ -365,7 +383,7 @@ def main():
                 # 套用 Bloomberg 公式計算最終的 Adj Beta
                 derived_adj_beta = ADJUST_ALPHA * derived_raw_beta + (1 - ADJUST_ALPHA) * 1.0
                 
-                # 寫回 JSON
+                # 寫回 JSON (保留它原本在上方迴圈被賦予的 sector 與 industry)
                 risk_db[etf]["raw_beta"] = round(float(derived_raw_beta), 2)
                 risk_db[etf]["beta"] = round(float(derived_adj_beta), 2)
                 risk_db[etf]["data_quality"] = "ok (derived proxy)"
