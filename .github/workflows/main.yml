@@ -1,10 +1,14 @@
-name: Test Risk Calculator
+name: AP Quant Engine Pipeline
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 保留手動觸發按鈕，方便你隨時測試
+  schedule:
+    # 台灣時間每週六早上 06:00 自動執行 (UTC 週五 22:00)
+    # 確保抓到完整的台美股一週收盤資料
+    - cron: "0 22 * * 5"
 
 jobs:
-  run-calculator:
+  run-quant-engine:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,24 +25,39 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # ⚠️ 關鍵修改：必須把 yfinance 加回來
-          pip install yfinance pandas numpy
+          # 確保安裝所有需要的套件
+          pip install yfinance pandas numpy requests lxml html5lib
 
-      - name: 🧠 執行量化運算 (API 抓取計算 -> 產出 JSON)
+      - name: 🇹🇼 更新台股清單
+        # 如果你不想每次都重抓清單，可以把這段註解掉
+        run: python get_tw_tickers.py
+        continue-on-error: true
+
+      - name: 🇺🇸 更新美股清單 (NASDAQ FTP)
+        # 同上，視需求開啟或註解
+        run: python get_us_tickers.py
+        continue-on-error: true
+
+      - name: 🏷️ 更新標籤資料庫 (Sector & Industry)
+        # 🌟 我們剛剛新增的最強外掛，只針對新股票抓標籤
+        run: python update_metadata.py
+
+      - name: 🧠 執行核心量化運算 (Beta & VaR)
+        # 🌟 會自動讀取 etf_proxy_map.json 進行反1校正
         run: python calculate_risk.py
 
-      - name: 💾 Commit 產出的 JSON
+      - name: 💾 Commit & Push 產出檔案
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add risk_lookup.json
+          # 將所有可能變動的檔案都加入 Git 追蹤
+          git add my_tickers.txt us_tickers.txt ticker_meta.json risk_lookup.json
           
           if [ -n "$(git status --porcelain)" ]; then
-            # 順便更新一下 commit 訊息，讓紀錄看起來更專業
-            git commit -m "📊 更新：全市場風險指標 JSON (Bloomberg Beta升級版)"
+            git commit -m "📊 自動更新：全市場風險指標與標籤資料庫"
             git pull --rebase origin main
             git push origin main
           else
-            echo "沒有產出新的 JSON 檔案。"
+            echo "✅ 檔案無變更，無須 commit。"
           fi
