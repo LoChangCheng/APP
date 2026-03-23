@@ -94,11 +94,16 @@ def extract_price_series(df):
         
     prices = pd.to_numeric(prices, errors='coerce').dropna()
     
-    # 強制移除時區並標準化時間，避免 pd.concat 因時區不同而變成空 DataFrame
-    if isinstance(prices.index, pd.DatetimeIndex):
-        if prices.index.tz is not None:
-            prices.index = prices.index.tz_localize(None)
-        prices.index = prices.index.normalize()
+    # 🚀【核心修復】：無論從 CSV 還是 API 來，無腦強制轉為時間格式！
+    prices.index = pd.to_datetime(prices.index, errors='coerce')
+    
+    # 剃除轉換失敗的爛行 (例如 CSV 的字串表頭)
+    prices = prices[prices.index.notna()]
+    
+    # 強制移除時區並標準化時間
+    if getattr(prices.index, 'tz', None) is not None:
+        prices.index = prices.index.tz_localize(None)
+    prices.index = prices.index.normalize()
         
     return prices
 
