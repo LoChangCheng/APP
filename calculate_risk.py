@@ -76,7 +76,7 @@ def fetch_benchmark_prices(symbol):
     bench = yf.download(symbol, period=f"{LOOKBACK_YEARS}y", progress=False)
     return extract_price_series(bench)
 
-def assess_quality(mdd, down_vol, var_95, cvar_95):
+def assess_quality(mdd, down_vol, var_95, cvar_95, history_days): # 🌟 新增參數
     if mdd <= QUALITY_RULES["mdd_delisted"]:
         return "delisted"
     if abs(down_vol) > QUALITY_RULES["down_vol_max"]:
@@ -85,6 +85,11 @@ def assess_quality(mdd, down_vol, var_95, cvar_95):
         ratio = abs(cvar_95) / abs(var_95)
         if ratio > QUALITY_RULES["cvar_var_ratio_max"]:
             return "fat_tail"
+            
+    # 🌟 新增規則：如果上市不到一年 (約 252 個交易日)，標示為歷史過短
+    if history_days < 252:
+        return "short_history"
+        
     return "ok"
 
 # ────────────────────────────────────────
@@ -203,7 +208,7 @@ def calculate_metrics(ticker, bench_prices, ticker_meta):
                 raw_beta = 1.0
             
         adj_beta = ADJUST_ALPHA * raw_beta + (1 - ADJUST_ALPHA) * 1.0
-        quality = assess_quality(mdd, down_vol, var_95, cvar_95)
+        quality = assess_quality(mdd, down_vol, var_95, cvar_95, len(prices))
 
         return {
             "mdd": mdd,
