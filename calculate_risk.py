@@ -136,7 +136,7 @@ def calculate_metrics(ticker, bench_prices, ticker_meta):
             stock = yf.download(ticker, period=f"{LOOKBACK_YEARS}y", progress=False)
 
         # 最終若還是抓不到或資料依然不夠，才會真的放棄此檔
-        if stock.empty or len(stock) < 100: 
+        if stock.empty or len(stock) < 30: 
             return None, is_cached 
             
         prices = extract_price_series(stock)
