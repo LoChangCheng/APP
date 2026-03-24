@@ -58366,5 +58366,33 @@
   "ZYME": {
     "sector": "Healthcare",
     "industry": "Biotechnology"
+  },
+  "6908.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7811.TWO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure"
+  },
+  "AAOX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMZO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HLXX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBX": {
+    "sector": "",
+    "industry": ""
+  },
+  "OXLCM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
