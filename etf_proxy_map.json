@@ -59,7 +59,7 @@
   "METD": {"proxy": "META", "multiplier": -1.0},
   "NVDQ": {"proxy": "NVDA", "multiplier": -1.0},
   "NVDS": {"proxy": "NVDA", "multiplier": -1.0},
-  
+  "ORCS": {"proxy": "ORCL", "multiplier": -1.0},
   "OILD": {"proxy": "USO", "multiplier": -1.0},
   "GOLDD": {"proxy": "GLD", "multiplier": -1.0},
   "SLVD": {"proxy": "SLV", "multiplier": -1.0},
