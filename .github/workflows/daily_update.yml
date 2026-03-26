@@ -1,0 +1,67 @@
+name: 🚀 每日 AP 雲端量化引擎
+
+on:
+  workflow_dispatch: # 保留手動執行按鈕，隨時可按
+  schedule:
+    # 🌟 每日排程：台灣時間「每週二到週六」的早上 06:00 執行
+    # (UTC 時間的週一到週五 22:00)
+    # 為什麼是這個時間？因為此時「昨天的台股」與「昨晚的美股」都已經完全收盤了！
+    - cron: "0 22 * * 1-5"
+
+jobs:
+  daily-quant-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 允許機器人把算好的 JSON 存回 GitHub
+
+    steps:
+      # 1. 把你的程式碼抓到虛擬機裡
+      - name: 📥 步驟一：拉取程式碼 (Checkout)
+        uses: actions/checkout@v4
+
+      # 2. 安裝 Python 環境
+      - name: 🐍 步驟二：建立 Python 3.10 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      # 3. 安裝我們需要的量化套件
+      - name: 📦 步驟三：安裝依賴套件
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy requests lxml html5lib
+
+      # 4. (選用但建議) 每天順便檢查有沒有新上市的股票/ETF
+      - name: 🇹🇼 步驟四：更新台股清單 (TWSE)
+        run: python get_tw_tickers.py
+        continue-on-error: true # 就算證交所網站當機，也不要讓整個流程中斷
+
+      - name: 🇺🇸 步驟四：更新美股清單 (NASDAQ FTP)
+        run: python get_us_tickers.py
+        continue-on-error: true
+
+      # 5. 只針對「新加入的股票」去查它的產業與板塊 (極速)
+      - name: 🏷️ 步驟五：更新產業標籤庫 (Metadata)
+        run: python update_metadata.py
+
+      # 6. 🌟 核心重頭戲：下載最新股價、重算 VaR/MDD、執行反向 ETF 聯動校正
+      - name: 🧠 步驟六：執行核心量化運算 (Risk Engine)
+        run: python calculate_risk.py
+
+      # 7. 把今天算完的熱騰騰數據，自動存回 GitHub
+      - name: 💾 步驟七：儲存並推播資料 (Commit & Push)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 將有變動的資料庫檔案加入追蹤
+          git add my_tickers.txt us_tickers.txt ticker_meta.json risk_lookup.json
+          
+          # 檢查是否有檔案變動，有才 Commit，避免噴錯
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "📊 每日自動更新：最新市場風險指標與標籤 ($(date +'%Y-%m-%d'))"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "✅ 今天的資料沒有任何變動，無須儲存。"
+          fi
