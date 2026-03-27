@@ -58514,5 +58514,49 @@
   "VBCJ": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6028.TWO": {
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers"
+  },
+  "7822.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AACI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AACIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CLBR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CYAB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FMACU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPFXU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QADRU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VOXP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XNDU": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   }
 }
