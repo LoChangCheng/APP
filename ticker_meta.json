@@ -58394,5 +58394,125 @@
   "OXLCM": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "2072.TW": {
+    "sector": "",
+    "industry": ""
+  },
+  "ADBU": {
+    "sector": "",
+    "industry": ""
+  },
+  "GLND": {
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  "IBCB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBGC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBGM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBHM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBIM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBMU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBMV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBTR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JUDO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MCVT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NEE-W": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NHS-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NYSX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PRTO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PYPU": {
+    "sector": "",
+    "industry": ""
+  },
+  "TXNU": {
+    "sector": "",
+    "industry": ""
+  },
+  "UNHU": {
+    "sector": "",
+    "industry": ""
+  },
+  "VBCA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBCJ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
