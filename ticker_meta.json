@@ -58558,5 +58558,37 @@
   "XNDU": {
     "sector": "Technology",
     "industry": "Software - Infrastructure"
+  },
+  "00400A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAQUW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HCIC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HCICR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MAKO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCSB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCUB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
