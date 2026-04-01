@@ -58590,5 +58590,33 @@
   "SCUB": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00401A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ABUF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NASA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NEXR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NEXRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NINE": {
+    "sector": "",
+    "industry": ""
   }
 }
