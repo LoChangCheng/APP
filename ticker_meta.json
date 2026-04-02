@@ -58618,5 +58618,121 @@
   "NINE": {
     "sector": "",
     "industry": ""
+  },
+  "ARKI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARLI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHNL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHNU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CRDD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CRDX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CSHR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CSHRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDFA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDTA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DLUX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HMH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "INDQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PZIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PZLV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBIF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBKF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBKV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBQF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBQV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QBSV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SQLT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STLU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TAOZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TFGZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VGNT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WSDB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
