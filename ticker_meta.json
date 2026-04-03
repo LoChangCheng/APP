@@ -58734,5 +58734,41 @@
   "WSDB": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "DRAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EHCC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXG-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ODTE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TMTS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TMTSW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VEFA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
