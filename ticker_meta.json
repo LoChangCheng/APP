@@ -58770,5 +58770,61 @@
   "VEFA": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00997A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANABV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HACQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HACQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACOW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KEEL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PAAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PAACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PCPI": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SDEV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRAXV": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "WLII": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WLIIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
