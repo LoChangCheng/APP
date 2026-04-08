@@ -58826,5 +58826,49 @@
   "WLIIW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00986D.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00998A.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "4169.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AACPU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DCBG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DCOM-": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ELLA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXG-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OGC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RKSG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SPCK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
