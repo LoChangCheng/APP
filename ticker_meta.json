@@ -58870,5 +58870,57 @@
   "SPCK": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACGCU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "BFEW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BFXU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BUFE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DUTY": {
+    "sector": "ETF",
+    "industry": "Industrials"
+  },
+  "IBMW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IVEP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "JHDG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MSBT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "NGHT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RWIN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TMCR": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "XAIL": {
+    "sector": "",
+    "industry": ""
   }
 }
