@@ -58922,5 +58922,21 @@
   "XAIL": {
     "sector": "",
     "industry": ""
+  },
+  "BCEM": {
+    "sector": "",
+    "industry": ""
+  },
+  "GENZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RMIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THMR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
