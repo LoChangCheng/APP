@@ -58966,5 +58966,37 @@
   "YOOV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CWY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GLED": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTAL": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MUYY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MYXXU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "NICM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TMYY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZTG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
