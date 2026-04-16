@@ -58998,5 +58998,45 @@
   "ZTG": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "009819.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009820.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BAVA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BNCWZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DPRE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NHIVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "ORBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "REXC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPDF": {
+    "sector": "",
+    "industry": ""
   }
 }
