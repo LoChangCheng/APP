@@ -59038,5 +59038,49 @@
   "SPDF": {
     "sector": "",
     "industry": ""
+  },
+  "ARXS": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "BHAV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BHAVR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAGE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTAA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTAAR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ILLR": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "ILLRW": {
+    "sector": "",
+    "industry": ""
+  },
+  "MAIR": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment"
+  },
+  "VDG": {
+    "sector": "",
+    "industry": ""
+  },
+  "VDV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
