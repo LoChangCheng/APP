@@ -59082,5 +59082,41 @@
   "VDV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7794.TWO": {
+    "sector": "",
+    "industry": ""
+  },
+  "7821.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ALMR": {
+    "sector": "Healthcare",
+    "industry": "Medical Devices"
+  },
+  "AVEX": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "CBOX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JATT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KLRA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "P": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPCL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
