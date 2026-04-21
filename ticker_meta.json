@@ -59118,5 +59118,49 @@
   "SPCL": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "DGAP": {
+    "sector": "ETF",
+    "industry": "Defined Outcome"
+  },
+  "DHY-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ILLU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ILLUW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MZYX": {
+    "sector": "",
+    "industry": ""
+  },
+  "SUMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SUMAR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRAD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRAX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRGS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRGSR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
