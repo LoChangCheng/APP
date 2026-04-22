@@ -59162,5 +59162,41 @@
   "TRGSR": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7828.TWO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "ALP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYGM": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LQDM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MHIG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MHIP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "UCOP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "UPAL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "UPLT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
