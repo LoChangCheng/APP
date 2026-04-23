@@ -59198,5 +59198,37 @@
   "UPLT": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "BESO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DETX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JELH": {
+    "sector": "",
+    "industry": ""
+  },
+  "JELM": {
+    "sector": "",
+    "industry": ""
+  },
+  "NHP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SSMG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "WCMG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "YSWY": {
+    "sector": "Consumer Defensive",
+    "industry": "Grocery Stores"
   }
 }
