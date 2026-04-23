@@ -59230,5 +59230,41 @@
   "YSWY": {
     "sector": "Consumer Defensive",
     "industry": "Grocery Stores"
+  },
+  "ACYS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DHY-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ELMT": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "EMFI": {
+    "sector": "",
+    "industry": ""
+  },
+  "LABT": {
+    "sector": "",
+    "industry": ""
+  },
+  "LITZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RISE": {
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  "SNDQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STXL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
