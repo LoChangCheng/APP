@@ -59266,5 +59266,45 @@
   "STXL": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7820.TWO": {
+    "sector": "Industrials",
+    "industry": "Waste Management"
+  },
+  "AXTX": {
+    "sector": "",
+    "industry": ""
+  },
+  "CPNX": {
+    "sector": "",
+    "industry": ""
+  },
+  "EFOR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FNRN": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "KCA-U": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MPWX": {
+    "sector": "",
+    "industry": ""
+  },
+  "STXX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TOAO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XE": {
+    "sector": "",
+    "industry": ""
   }
 }
