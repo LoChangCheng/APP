@@ -59306,5 +59306,25 @@
   "XE": {
     "sector": "",
     "industry": ""
+  },
+  "00999A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7760.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KEEX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VIVK": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  "ZSQR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
