@@ -59326,5 +59326,37 @@
   "ZSQR": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CRY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CXIIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "GLNDW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACQU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "VBIO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WRTH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XBNB": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "XEY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
