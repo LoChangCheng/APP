@@ -59358,5 +59358,29 @@
   "XEY": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "4178.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIFC": {
+    "sector": "",
+    "industry": ""
+  },
+  "CAIIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FABC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PSUS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
