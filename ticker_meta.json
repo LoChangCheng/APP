@@ -59382,5 +59382,69 @@
   "PSUS": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACVU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARCLU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "AVLN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BGDE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FEMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FEMV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FSEG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FSEV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTHAU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "GCGRU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MCAHU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "QXL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RREVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SBMT": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "TXXH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UFOX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
