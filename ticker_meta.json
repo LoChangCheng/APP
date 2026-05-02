@@ -59446,5 +59446,69 @@
   "UFOX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CMAY": {
+    "sector": "",
+    "industry": ""
+  },
+  "COAG": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "DDFY": {
+    "sector": "",
+    "industry": ""
+  },
+  "DDTY": {
+    "sector": "",
+    "industry": ""
+  },
+  "DYNC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DYNCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DYNCW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MAUG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MAYC": {
+    "sector": "",
+    "industry": ""
+  },
+  "MFEB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MMAY": {
+    "sector": "",
+    "industry": ""
+  },
+  "MNVR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "POEL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QQMY": {
+    "sector": "",
+    "industry": ""
+  },
+  "SPTX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
   }
 }
