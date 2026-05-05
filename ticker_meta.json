@@ -59510,5 +59510,21 @@
   "SPTX": {
     "sector": "Healthcare",
     "industry": "Biotechnology"
+  },
+  "00403A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AYA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ONT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCOP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
