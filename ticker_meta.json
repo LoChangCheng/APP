@@ -59526,5 +59526,73 @@
   "SCOP": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "3485.TWO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "AMKL": {
+    "sector": "",
+    "industry": ""
+  },
+  "AXTU": {
+    "sector": "",
+    "industry": ""
+  },
+  "BIOY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHRN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DINE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FINY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FIYY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PCEB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PONO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PONOR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TECY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPFC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPFG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPFI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XOVL": {
+    "sector": "",
+    "industry": ""
   }
 }
