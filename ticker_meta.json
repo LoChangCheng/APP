@@ -59594,5 +59594,189 @@
   "XOVL": {
     "sector": "",
     "industry": ""
+  },
+  "7768.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMPU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APDB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BAY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BLCK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BREW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BZZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CBOT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CLOO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CLUB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CMAG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CQTM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DIPR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DOCK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DUSG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EUV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EYES": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GASZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GLAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GNMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HMAY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HULL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JADB": {
+    "sector": "",
+    "industry": ""
+  },
+  "JOUL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JUDB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KYC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LATR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NICO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NYNY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCDB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ODDZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PTNT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "REA": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "RSIT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STYL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WATS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WNDR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YUNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
