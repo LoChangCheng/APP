@@ -59778,5 +59778,53 @@
   "YUNG": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7772.TWO": {
+    "sector": "",
+    "industry": ""
+  },
+  "BUYB": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "HAWK": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "KMCA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PSAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QRED": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SUJA": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic"
+  },
+  "TCAN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WARP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "WDAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WDIG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XNDX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
