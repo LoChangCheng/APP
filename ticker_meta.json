@@ -59826,5 +59826,33 @@
   "XNDX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "4195.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7842.TWO": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric"
+  },
+  "AGNT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ENHA": {
+    "sector": "",
+    "industry": ""
+  },
+  "LKFT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MOBI": {
+    "sector": "",
+    "industry": ""
+  },
+  "ODTX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
   }
 }
