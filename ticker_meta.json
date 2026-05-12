@@ -59854,5 +59854,25 @@
   "ODTX": {
     "sector": "Healthcare",
     "industry": "Biotechnology"
+  },
+  "BOT": {
+    "sector": "",
+    "industry": ""
+  },
+  "BRUN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRUNW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BWIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WSE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
