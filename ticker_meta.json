@@ -59874,5 +59874,73 @@
   "WSE": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AAOG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMAU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CATG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CIEG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "COHH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ETNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HONG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PLGO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QVOL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SNDG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SSCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STXU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THYP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VAIE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VIDA": {
+    "sector": "Technology",
+    "industry": "Software - Application"
   }
 }
