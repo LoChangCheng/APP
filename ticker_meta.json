@@ -59942,5 +59942,45 @@
   "VIDA": {
     "sector": "Technology",
     "industry": "Software - Application"
+  },
+  "ALDB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BREZU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FRVO": {
+    "sector": "",
+    "industry": ""
+  },
+  "GMRS": {
+    "sector": "Healthcare",
+    "industry": "Medical Care Facilities"
+  },
+  "GOVM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LQID": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSR": {
+    "sector": "",
+    "industry": ""
+  },
+  "NISM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RTB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WENC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
