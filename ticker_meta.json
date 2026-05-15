@@ -59982,5 +59982,45 @@
   "WENC": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AIAI": {
+    "sector": "Industrials",
+    "industry": "Conglomerates"
+  },
+  "BXDC": {
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty"
+  },
+  "CBRS": {
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  "EROK": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  "GSRVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "GTND": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LOHA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MWC": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "TKNS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WDRN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
