@@ -60022,5 +60022,77 @@
   "WDRN": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7818.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AVAZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "BFH-B": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BHYP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CBRG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "DUKR": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "DUKRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EXYN": {
+    "sector": "",
+    "industry": ""
+  },
+  "EXYNW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GUACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "IDACU": {
+    "sector": "",
+    "industry": ""
+  },
+  "MYX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MYXXR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MYXXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NYYY": {
+    "sector": "",
+    "industry": ""
+  },
+  "PTACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SUIL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TYYY": {
+    "sector": "",
+    "industry": ""
   }
 }
