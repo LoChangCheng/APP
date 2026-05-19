@@ -60094,5 +60094,65 @@
   "TYYY": {
     "sector": "",
     "industry": ""
+  },
+  "AIIR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AUC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CVGD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CVSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DLMY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FMAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FMACR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPFX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPFXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LEND": {
+    "sector": "",
+    "industry": ""
+  },
+  "PCLC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PCSG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PUSA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UZX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XMAX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
