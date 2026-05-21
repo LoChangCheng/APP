@@ -60190,5 +60190,53 @@
   "VECA": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AMSS": {
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Wineries & Distilleries"
+  },
+  "BFLX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LCLN": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "OPTH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QADR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QADRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QTEX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QTEXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RACC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "RREV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RREVW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
