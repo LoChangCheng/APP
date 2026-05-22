@@ -60238,5 +60238,85 @@
   "RREVW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "4582.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APURU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "ASTY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ASUP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BNY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BNY-K": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CNXU": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "DWWN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMSC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FBYDP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GIEQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KPET": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LITU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCTVV": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "OHACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PJUS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RIZE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TYG-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UUPP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WDE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
