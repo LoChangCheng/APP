@@ -60318,5 +60318,29 @@
   "WDE": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6983.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AGM-I": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRKHU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FXACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PECEU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SAGU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
