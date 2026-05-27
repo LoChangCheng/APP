@@ -60342,5 +60342,21 @@
   "SAGU": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "009822.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7819.TWO": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "HDRN": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "HDRNW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
