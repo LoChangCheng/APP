@@ -60358,5 +60358,61 @@
   "HDRNW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AIFA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BROL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BTCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCAQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCAQU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCAQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EVMU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDX-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OSSL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PWRL": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UGLD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USLV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
