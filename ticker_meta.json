@@ -60490,5 +60490,45 @@
   "SKYAW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ARCL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARCLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARCLW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BIDWU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FOTO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ISTM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RWTS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TEUP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBNB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
