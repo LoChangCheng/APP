@@ -60530,5 +60530,61 @@
   "VBNB": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00402A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00404A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00405A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ASD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AZUL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BGCG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BGGG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDFZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDTZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDXF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FOCL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LILAV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LILKV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LILPV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
