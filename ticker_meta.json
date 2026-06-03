@@ -60586,5 +60586,81 @@
   "LILPV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AAAD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIQD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIQU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CJUN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTJN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMJN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HBMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HJUN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDJN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JUNC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXPG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ONG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PRIZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QJN": {
+    "sector": "",
+    "industry": ""
+  },
+  "QQJN": {
+    "sector": "",
+    "industry": ""
+  },
+  "RACK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCJN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VSXY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZINC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
