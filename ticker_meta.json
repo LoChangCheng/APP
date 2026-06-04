@@ -60662,5 +60662,217 @@
   "ZINC": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00406A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AADX": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "ACGO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AESPU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "APMCU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "BGEG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BGIA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRZX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCPX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMXX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EUVX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYPG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "INYY": {
+    "sector": "",
+    "industry": ""
+  },
+  "KEYYU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "KRWX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LGL-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MBCE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MGKX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NGIF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NUDG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OWN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PBK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PFLA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TAJX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VOOX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WEBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XAGI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XBIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XCOM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XEUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XHOA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XIWC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XKRE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLEX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLFX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLKX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLPX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLUX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLVX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLYX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XPAV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XSEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XTAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVUG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
