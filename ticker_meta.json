@@ -60874,5 +60874,105 @@
   "XW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6945.TWO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "BRSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BTCK": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CBIL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CGOV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHYG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CIEI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CIVG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CUST": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ETSS": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "INIO": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "IPVVU": {
+    "sector": "",
+    "industry": ""
+  },
+  "LFTO": {
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies"
+  },
+  "LTGRU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MIVL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PECE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PECER": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PECEW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PPLI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QNT": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "SSMR": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "VCHY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VELL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WYFL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YCLO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
