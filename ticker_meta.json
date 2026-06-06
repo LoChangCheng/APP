@@ -60974,5 +60974,21 @@
   "YCLO": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "INFH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OHAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OHACR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PCPP": {
+    "sector": "",
+    "industry": ""
   }
 }
