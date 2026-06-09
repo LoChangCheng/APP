@@ -60990,5 +60990,61 @@
   "PCPP": {
     "sector": "",
     "industry": ""
+  },
+  "AFGR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AQLG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSIN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FACWW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FPAA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FRTT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOOGM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOOGN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LGL-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NHIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NHIVW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SLWS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STXF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
