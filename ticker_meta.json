@@ -61046,5 +61046,37 @@
   "STXF": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "009821.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIBZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ELOX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "GEQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ISNRU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MUZ": {
+    "sector": "ETF",
+    "industry": "Trading--Inverse Equity"
+  },
+  "QTUP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WHK": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Midstream"
   }
 }
