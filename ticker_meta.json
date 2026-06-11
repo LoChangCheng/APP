@@ -61078,5 +61078,69 @@
   "WHK": {
     "sector": "Energy",
     "industry": "Oil & Gas Midstream"
+  },
+  "APUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APURR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSCA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSGR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSGT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSJY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSTS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSTU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSTV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ENRD": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "ENRDW": {
+    "sector": "",
+    "industry": ""
+  },
+  "EROC": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "JABRU": {
+    "sector": "",
+    "industry": ""
+  },
+  "PBLS": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "SHOTU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "TRLV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
