@@ -61142,5 +61142,45 @@
   "TRLV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AVAT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BREZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BREZR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DRMP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FRBT": {
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified"
+  },
+  "PINC": {
+    "sector": "Healthcare",
+    "industry": "Health Information Services"
+  },
+  "SGVA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPUT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VRXA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VRXAW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
