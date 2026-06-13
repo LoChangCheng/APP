@@ -61182,5 +61182,33 @@
   "VRXAW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7839.TWO": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "MDCR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MJUN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MMAR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSEP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SHOE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SHRD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
