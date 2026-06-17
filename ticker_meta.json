@@ -61210,5 +61210,169 @@
   "SHRD": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00407A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009823.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009824.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "1780.TWO": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic"
+  },
+  "ADIU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APHG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AXTL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BITA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BMNP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CSEN": {
+    "sector": "",
+    "industry": ""
+  },
+  "FLZH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GCSH": {
+    "sector": "",
+    "industry": ""
+  },
+  "GISC": {
+    "sector": "",
+    "industry": ""
+  },
+  "HONAV": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "HONIV": {
+    "sector": "",
+    "industry": ""
+  },
+  "HRSK": {
+    "sector": "",
+    "industry": ""
+  },
+  "JCAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "JTNY": {
+    "sector": "",
+    "industry": ""
+  },
+  "KEYG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LOFF": {
+    "sector": "",
+    "industry": ""
+  },
+  "MCHG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SLBT": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "SMCIP": {
+    "sector": "",
+    "industry": ""
+  },
+  "SNK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPAL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPAX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SPCF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPCG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPCH": {
+    "sector": "",
+    "industry": ""
+  },
+  "SPCM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPCQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SSPC": {
+    "sector": "",
+    "industry": ""
+  },
+  "TELG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TILC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TISC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TSEG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XSPC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YICCU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
   }
 }
