@@ -61374,5 +61374,53 @@
   "YICCU": {
     "sector": "Financial Services",
     "industry": "Shell Companies"
+  },
+  "ACOM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAES": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTGG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTHH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CXII": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CXIIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FHIL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KAZR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LILAP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NVA-W": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RQI-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XSHP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
