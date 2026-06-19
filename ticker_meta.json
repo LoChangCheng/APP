@@ -61422,5 +61422,65 @@
   "XSHP": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "FCBM": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "FIMU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FISN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FREI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FSTB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KARD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NUIF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NVPS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OPI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PLUN": {
+    "sector": "",
+    "industry": ""
+  },
+  "TVIVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "UMAL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WLCOU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
