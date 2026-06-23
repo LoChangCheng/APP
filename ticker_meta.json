@@ -61482,5 +61482,69 @@
   "WLCOU": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CAII": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAIIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DQJN": {
+    "sector": "",
+    "industry": ""
+  },
+  "FIRY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTHA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTHAW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GCGR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GCGRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HAPN": {
+    "sector": "",
+    "industry": ""
+  },
+  "KEYY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KEYYW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MCAH": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MCAHR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTNE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RQI-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WELD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
