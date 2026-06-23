@@ -61546,5 +61546,93 @@
   "WELD": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AAAP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ASTG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BKLG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CDNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CRIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DFAL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ENTL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FOMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FPSX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GFSG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GHXIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "HPEL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTSG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PBSC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PRXI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QLEP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMTG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THOR": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TMS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TMSWW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPTS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
