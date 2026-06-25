@@ -61634,5 +61634,121 @@
   "TPTS": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACLZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACMM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACYQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMEI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMGR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAMC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CARX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CRUC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ECHO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FUSD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IINC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KEYX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LASC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LRNX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LSCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LSTB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MNSX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NTRL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ONTX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QNDX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RMBC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RMHY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SIMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMHC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TPLX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UMCX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
