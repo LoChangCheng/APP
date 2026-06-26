@@ -61750,5 +61750,45 @@
   "UMCX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6986.TWO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "AIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ALPXU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "AMHI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CGCFU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "DPC": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "DRAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "DSC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FWACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "XIGV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
