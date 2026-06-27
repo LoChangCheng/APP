@@ -61790,5 +61790,97 @@
   "XIGV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AEHG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMAA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMDC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APPC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ASTT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "COIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOGL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LADM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MFPVV": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "MIC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MIDDV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSFC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSTC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NVC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PLTL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SIND": {
+    "sector": "Basic Materials",
+    "industry": "Other Precious Metals & Mining"
+  },
+  "SNDC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TESC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TWSC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UCTX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USDE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USDEW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
