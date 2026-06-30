@@ -61882,5 +61882,29 @@
   "USDEW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "APMC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APMCR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DMC": {
+    "sector": "",
+    "industry": ""
+  },
+  "HONA": {
+    "sector": "",
+    "industry": ""
+  },
+  "MWHS": {
+    "sector": "ETF",
+    "industry": "Commodities Focused"
+  },
+  "OTAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
