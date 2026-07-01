@@ -61906,5 +61906,89 @@
   "OTAI": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AAC-U": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACHX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARMA": {
+    "sector": "",
+    "industry": ""
+  },
+  "ASMZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "AVGC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BEC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CIFC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DISK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EO": {
+    "sector": "",
+    "industry": ""
+  },
+  "GLAS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GLX": {
+    "sector": "",
+    "industry": ""
+  },
+  "GMEC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOLI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IONC": {
+    "sector": "",
+    "industry": ""
+  },
+  "IOSX": {
+    "sector": "",
+    "industry": ""
+  },
+  "LAZR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ORAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RANK": {
+    "sector": "",
+    "industry": ""
+  },
+  "RKX": {
+    "sector": "",
+    "industry": ""
+  },
+  "SMCC": {
+    "sector": "ETF",
+    "industry": "Trading--Miscellaneous"
+  },
+  "XQTM": {
+    "sector": "",
+    "industry": ""
   }
 }
