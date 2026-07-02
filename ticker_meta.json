@@ -61990,5 +61990,113 @@
   "XQTM": {
     "sector": "",
     "industry": ""
+  },
+  "00990B.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AESP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AESPR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AESPW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARKE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CIEX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ECHX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FECM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FESC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HODO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ITG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JULI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KMEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LIME": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MBGL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NSLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NSLRL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OSPRU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PQV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PQX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PQXV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PQXX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QNTU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RMBX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TSEU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TTMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
