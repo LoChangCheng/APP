@@ -62098,5 +62098,85 @@
   "TTMX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CIRC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CJUL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "COPR": {
+    "sector": "",
+    "industry": ""
+  },
+  "CTJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FXHO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GSRV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GSRVR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HJLY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IQMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IQMXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JULC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MIACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "QJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QQJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SECZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VCRE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VII-U": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
