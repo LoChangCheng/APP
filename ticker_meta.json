@@ -62178,5 +62178,41 @@
   "VII-U": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "EOSER": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GUAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GUACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NMAD": {
+    "sector": "",
+    "industry": ""
+  },
+  "PRVT": {
+    "sector": "ETF",
+    "industry": "Real Estate"
+  },
+  "PTAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PTACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
