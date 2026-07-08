@@ -62214,5 +62214,133 @@
   "PTACW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AAPE": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ALPX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ALPXR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ALPXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMKX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "AMZG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "APMI": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "AXTC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "BBUL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BCCQU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "BRKL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CIR": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "COHC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CRWX": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "FXAC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FXACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOOL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "JBLG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LCTO": {
+    "sector": "ETF",
+    "industry": "Derivative Income"
+  },
+  "LRCC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "METG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MFP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MPWC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "NFX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "NVTC": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "OKLC": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "ONDC": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "PUL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SFYI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TERC": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "UN": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "VIAG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
