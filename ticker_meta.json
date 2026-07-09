@@ -62342,5 +62342,37 @@
   "VIAG": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "CEPL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDMMU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SNTQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRUU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
