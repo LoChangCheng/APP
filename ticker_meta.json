@@ -62374,5 +62374,69 @@
   "TRUU": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00408A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009825.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BWQG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCCTU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "DRVR": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FINA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FSPC": {
+    "sector": "ETF",
+    "industry": "Large Blend"
+  },
+  "IQQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRCOU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "NSIG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "NSIV": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PWRZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RNMN": {
+    "sector": "",
+    "industry": ""
+  },
+  "SLVY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WSPC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
