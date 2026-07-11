@@ -62438,5 +62438,69 @@
   "WSPC": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ALA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BABC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BNMC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GEVC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HOOC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "INT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JOBC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LITC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QUA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SKHYV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMRX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SOFC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TEMC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UPSC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UUUC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WDCC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
