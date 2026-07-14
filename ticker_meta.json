@@ -62502,5 +62502,53 @@
   "WDCC": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AZIO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GFUZ": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery"
+  },
+  "GFUZW": {
+    "sector": "",
+    "industry": ""
+  },
+  "JPRF": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LGDS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NQLT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RACD": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SKHY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TVIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TVIVW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YICC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YICCW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
