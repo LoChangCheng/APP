@@ -62550,5 +62550,129 @@
   "YICCW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "BRKH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRKHW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BTDL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CDPI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CRD": {
+    "sector": "",
+    "industry": ""
+  },
+  "CRWC": {
+    "sector": "",
+    "industry": ""
+  },
+  "HIMC": {
+    "sector": "",
+    "industry": ""
+  },
+  "HYNX": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "IREC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JONEU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MHX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRVX": {
+    "sector": "",
+    "industry": ""
+  },
+  "NBIC": {
+    "sector": "",
+    "industry": ""
+  },
+  "NOWX": {
+    "sector": "",
+    "industry": ""
+  },
+  "NTAL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NVOC": {
+    "sector": "",
+    "industry": ""
+  },
+  "OUSL": {
+    "sector": "",
+    "industry": ""
+  },
+  "QFF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RDDC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RECI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RGTC": {
+    "sector": "",
+    "industry": ""
+  },
+  "RIVC": {
+    "sector": "",
+    "industry": ""
+  },
+  "SEUS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SKDD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SKHU": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SKHX": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKHZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKUU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TDCL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VRC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
