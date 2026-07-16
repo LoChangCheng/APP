@@ -62674,5 +62674,57 @@
   "VRC": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "5236.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7814.TWO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "AAOZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "JLCO": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "KWH": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LUMA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ORCZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKHL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TMGN": {
+    "sector": "",
+    "industry": ""
+  },
+  "VPFF": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "YSAG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YSAU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YSPC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
