@@ -62726,5 +62726,41 @@
   "YSPC": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "AMMO": {
+    "sector": "ETF",
+    "industry": "Industrials"
+  },
+  "CSQR": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "DPU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DRMY": {
+    "sector": "ETF",
+    "industry": "Technology"
+  },
+  "GALX": {
+    "sector": "ETF",
+    "industry": "Technology"
+  },
+  "QMLS": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "RTOO": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "STDN": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  },
+  "TKNZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
