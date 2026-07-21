@@ -62762,5 +62762,69 @@
   "TKNZ": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "AMACU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "BID": {
+    "sector": "",
+    "industry": ""
+  },
+  "BIDWR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BXBL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CUVL": {
+    "sector": "",
+    "industry": ""
+  },
+  "DGAC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "DGJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LOEV": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MF": {
+    "sector": "Consumer Defensive",
+    "industry": "Grocery Stores"
+  },
+  "NIKI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OGG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OGGWZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SHOT": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SHOTR": {
+    "sector": "",
+    "industry": ""
+  },
+  "VII": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "VII-W": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
