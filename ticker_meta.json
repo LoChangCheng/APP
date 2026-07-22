@@ -62826,5 +62826,25 @@
   "VII-W": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AIHY": {
+    "sector": "ETF",
+    "industry": "Technology"
+  },
+  "BRTMU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FRNM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HLTH": {
+    "sector": "Healthcare",
+    "industry": "Health Information Services"
+  },
+  "NCOOU": {
+    "sector": "",
+    "industry": ""
   }
 }
