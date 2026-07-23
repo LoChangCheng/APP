@@ -62846,5 +62846,41 @@
   "NCOOU": {
     "sector": "",
     "industry": ""
+  },
+  "6947.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHGA": {
+    "sector": "",
+    "industry": ""
+  },
+  "CPTL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HWIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MEDS": {
+    "sector": "Healthcare",
+    "industry": "Pharmaceutical Retailers"
+  },
+  "PSA-T": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PSA-U": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PWCM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
