@@ -62882,5 +62882,41 @@
   "PWCM": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "7835.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AAUB": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "EQQQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GRSD": {
+    "sector": "",
+    "industry": ""
+  },
+  "PMTL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RAML": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "VLOS": {
+    "sector": "",
+    "industry": ""
+  },
+  "VLOSU": {
+    "sector": "",
+    "industry": ""
+  },
+  "VLOSW": {
+    "sector": "",
+    "industry": ""
   }
 }
