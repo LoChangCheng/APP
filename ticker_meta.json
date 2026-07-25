@@ -62918,5 +62918,29 @@
   "VLOSW": {
     "sector": "",
     "industry": ""
+  },
+  "BIOT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BIOTW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTAKU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PLCIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SCTX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "VIP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
