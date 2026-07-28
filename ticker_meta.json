@@ -62942,5 +62942,73 @@
   "VIP": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00410A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009826.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00991B.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7689.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BAGX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BGFI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BMSI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRSV": {
+    "sector": "",
+    "industry": ""
+  },
+  "BUSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTRA": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "IPVV": {
+    "sector": "",
+    "industry": ""
+  },
+  "IPVVW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LTGRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUA-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TONT": {
+    "sector": "",
+    "industry": ""
+  },
+  "TRNI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRNZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
