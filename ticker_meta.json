@@ -63010,5 +63010,49 @@
   "TRNZ": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "BGUS": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CATLU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "IOND": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets"
+  },
+  "LTGR": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MSOL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSSE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTB-L": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RAMZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKHA": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKHN": {
+    "sector": "",
+    "industry": ""
+  },
+  "YARW": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
   }
 }
