@@ -63054,5 +63054,41 @@
   "YARW": {
     "sector": "Healthcare",
     "industry": "Biotechnology"
+  },
+  "BNAV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IMC": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "MEIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NVIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PLIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TSIB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WSMD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
