@@ -63090,5 +63090,45 @@
   "WSMD": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ARCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARMS": {
+    "sector": "",
+    "industry": ""
+  },
+  "ELOL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GYGY": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "ISNR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ISNRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JMKE": {
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants"
+  },
+  "PBAM": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "REF": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail"
+  },
+  "SDUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
