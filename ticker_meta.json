@@ -63130,5 +63130,53 @@
   "SDUR": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "APMD": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "CCCT": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "CCCTW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EWAVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "FWAC": {
+    "sector": "",
+    "industry": ""
+  },
+  "FWACR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FWACW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JLVP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NCO": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "NCOOR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NCOOW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XIIIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
   }
 }
