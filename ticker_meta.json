@@ -63178,5 +63178,37 @@
   "XIIIU": {
     "sector": "Financial Services",
     "industry": "Shell Companies"
+  },
+  "BCCQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BCCQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CNSY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDFG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DDTG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCAC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "OPPG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RJCA": {
+    "sector": "",
+    "industry": ""
   }
 }
