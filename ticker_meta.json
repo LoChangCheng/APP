@@ -63210,5 +63210,101 @@
   "RJCA": {
     "sector": "",
     "industry": ""
+  },
+  "ADIG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AUGC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAUG": {
+    "sector": "",
+    "industry": ""
+  },
+  "CHDG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTAU": {
+    "sector": "",
+    "industry": ""
+  },
+  "EMAU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EOSEW": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "FDMM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDMMW": {
+    "sector": "",
+    "industry": ""
+  },
+  "FIZY": {
+    "sector": "",
+    "industry": ""
+  },
+  "FJDIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "HAUG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDAU": {
+    "sector": "",
+    "industry": ""
+  },
+  "MUA-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OBX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "QAU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QNME": {
+    "sector": "",
+    "industry": ""
+  },
+  "QQAU": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCAU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMHD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMHU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STLN": {
+    "sector": "",
+    "industry": ""
+  },
+  "STLNW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THEOU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
   }
 }
