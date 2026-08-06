@@ -63306,5 +63306,33 @@
   "THEOU": {
     "sector": "Financial Services",
     "industry": "Shell Companies"
+  },
+  "ATTO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DLCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JAB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JABRR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JABRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KEO": {
+    "sector": "",
+    "industry": ""
+  },
+  "TCGX": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
   }
 }
