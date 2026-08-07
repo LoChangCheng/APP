@@ -63334,5 +63334,45 @@
   "TCGX": {
     "sector": "Financial Services",
     "industry": "Shell Companies"
+  },
+  "AKAL": {
+    "sector": "",
+    "industry": ""
+  },
+  "ANGU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRVE": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "LOFD": {
+    "sector": "",
+    "industry": ""
+  },
+  "LYTE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NCLD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCNL": {
+    "sector": "",
+    "industry": ""
+  },
+  "PENU": {
+    "sector": "",
+    "industry": ""
+  },
+  "RCBC": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "TIH": {
+    "sector": "",
+    "industry": ""
   }
 }
