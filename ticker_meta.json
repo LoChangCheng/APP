@@ -63374,5 +63374,41 @@
   "TIH": {
     "sector": "",
     "industry": ""
+  },
+  "2237.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BLSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BSEM": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "LTGO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "OCLTU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PARA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PARAW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QVC": {
+    "sector": "",
+    "industry": ""
+  },
+  "TP": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   }
 }
