@@ -63410,5 +63410,45 @@
   "TP": {
     "sector": "Technology",
     "industry": "Software - Infrastructure"
+  },
+  "7855.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ARIA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FFLX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "GCPB": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "GINC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PHOS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PHOX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "QVCG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WLCO": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "WLCOW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
