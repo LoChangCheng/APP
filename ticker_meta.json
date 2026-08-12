@@ -63450,5 +63450,45 @@
   "WLCOW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "HYGD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYGU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LITG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LQDD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LQDU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRAX": {
+    "sector": "",
+    "industry": ""
+  },
+  "MXLL": {
+    "sector": "",
+    "industry": ""
+  },
+  "SITX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "STLL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UMCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
