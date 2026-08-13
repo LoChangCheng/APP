@@ -63490,5 +63490,57 @@
   "UMCU": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CSRA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EXPN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FOIL": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "GAIQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MPDB": {
+    "sector": "",
+    "industry": ""
+  },
+  "MPDY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MPIA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MPIM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PLCI": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PLCIR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SNSC": {
+    "sector": "Technology",
+    "industry": "Solar"
+  },
+  "VOGX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "YLDY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
