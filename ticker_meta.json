@@ -63542,5 +63542,61 @@
   "YLDY": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "009829.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANTW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CGPT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "COOL": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "DACL": {
+    "sector": "",
+    "industry": ""
+  },
+  "DEPW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GHXI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GHXIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HBIL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTAW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OAIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RVII": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TBCVU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "XAIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
