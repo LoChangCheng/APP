@@ -63598,5 +63598,49 @@
   "XAIW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACQQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "ACRT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACSP": {
+    "sector": "",
+    "industry": ""
+  },
+  "BEMD": {
+    "sector": "",
+    "industry": ""
+  },
+  "BRNX": {
+    "sector": "",
+    "industry": ""
+  },
+  "EWAV": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "EWAVR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GFR-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HAWG": {
+    "sector": "",
+    "industry": ""
+  },
+  "THEO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THEOR": {
+    "sector": "",
+    "industry": ""
   }
 }
