@@ -63642,5 +63642,57 @@
   "THEOR": {
     "sector": "",
     "industry": ""
+  },
+  "ADAMK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BBBYW": {
+    "sector": "",
+    "industry": ""
+  },
+  "CGCF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CGCFW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DUKU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRCO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MRCOW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NUR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SIC": {
+    "sector": "",
+    "industry": ""
+  },
+  "WATR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZDIS": {
+    "sector": "",
+    "industry": ""
+  },
+  "ZINN": {
+    "sector": "",
+    "industry": ""
   }
 }
