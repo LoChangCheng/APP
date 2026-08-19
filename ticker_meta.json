@@ -63694,5 +63694,65 @@
   "ZINN": {
     "sector": "",
     "industry": ""
+  },
+  "00411A.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00987D.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AINF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AXTQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "COHQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CROB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FTG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IACL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LWLX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "METQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NSAIU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "VMRK": {
+    "sector": "",
+    "industry": ""
+  },
+  "XCSH": {
+    "sector": "",
+    "industry": ""
+  },
+  "XTERU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
   }
 }
