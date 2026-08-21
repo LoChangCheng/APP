@@ -63874,5 +63874,53 @@
   "XWNG": {
     "sector": "",
     "industry": ""
+  },
+  "HIAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HXA": {
+    "sector": "",
+    "industry": ""
+  },
+  "HXC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HXE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MEGX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "OSPR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OSPRW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SEPQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "USGX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USLX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "USMX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "USSX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
