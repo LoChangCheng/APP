@@ -63754,5 +63754,125 @@
   "XTERU": {
     "sector": "Financial Services",
     "industry": "Shell Companies"
+  },
+  "AHBM": {
+    "sector": "",
+    "industry": ""
+  },
+  "ARKY": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "BBLS": {
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  "BRZD": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "BRZL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "BTLN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHTRP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FBDT": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "FIXX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FLEL": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "GCLO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GEEQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JPND": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "JPNU": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "KAIT": {
+    "sector": "",
+    "industry": ""
+  },
+  "KSMH": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LYNX": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "MUG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PCOV": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "QNBC": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "ROBX": {
+    "sector": "",
+    "industry": ""
+  },
+  "STMX": {
+    "sector": "ETF",
+    "industry": "Trading--Leveraged Equity"
+  },
+  "TAWN": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TPEI": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TREO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XQBT": {
+    "sector": "",
+    "industry": ""
+  },
+  "XVAP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "XVNV": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "XVTS": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "XWNG": {
+    "sector": "",
+    "industry": ""
   }
 }
