@@ -63922,5 +63922,25 @@
   "USSX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "EDVA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KLXER": {
+    "sector": "",
+    "industry": ""
+  },
+  "MIAC": {
+    "sector": "",
+    "industry": ""
+  },
+  "MIACW": {
+    "sector": "",
+    "industry": ""
+  },
+  "SQBA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
