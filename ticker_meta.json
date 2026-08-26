@@ -63942,5 +63942,45 @@
   "SQBA": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00409A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009827.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009828.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ADBT": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "BTA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GFR-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JULV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LBOX": {
+    "sector": "",
+    "industry": ""
+  },
+  "YRAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZCSH": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
