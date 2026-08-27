@@ -63982,5 +63982,65 @@
   "ZCSH": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "CAPA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JTTT": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MUNF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUNH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUNJ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OTAX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PSOX": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCATU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "TGRZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TIPE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TIPF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TIPG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TIPH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVSP": {
+    "sector": "",
+    "industry": ""
   }
 }
