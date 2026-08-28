@@ -64042,5 +64042,89 @@
   "XVSP": {
     "sector": "",
     "industry": ""
+  },
+  "AAC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "AAC-W": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AEMC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AEMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AEMV": {
+    "sector": "",
+    "industry": ""
+  },
+  "AESB": {
+    "sector": "",
+    "industry": ""
+  },
+  "AESG": {
+    "sector": "",
+    "industry": ""
+  },
+  "AESL": {
+    "sector": "",
+    "industry": ""
+  },
+  "DSPC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HBIT": {
+    "sector": "",
+    "industry": ""
+  },
+  "HWGV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPXG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPXGU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IPXGW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MNGU": {
+    "sector": "",
+    "industry": ""
+  },
+  "PRAM": {
+    "sector": "",
+    "industry": ""
+  },
+  "RNAQU": {
+    "sector": "",
+    "industry": ""
+  },
+  "SAX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XTER": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "XTERW": {
+    "sector": "",
+    "industry": ""
   }
 }
