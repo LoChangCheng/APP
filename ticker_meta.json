@@ -64126,5 +64126,37 @@
   "XTERW": {
     "sector": "",
     "industry": ""
+  },
+  "IPHXU": {
+    "sector": "",
+    "industry": ""
+  },
+  "KPO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PSQL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PSQLW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "REIX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RIV-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLAB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLABW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
