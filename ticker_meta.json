@@ -64158,5 +64158,45 @@
   "XLABW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AELV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATLQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATLQR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATLQU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATLQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FRUT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MATR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PAAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SAMO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRBG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
