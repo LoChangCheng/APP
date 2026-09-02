@@ -64198,5 +64198,29 @@
   "TRBG": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AGGM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GIXI": {
+    "sector": "",
+    "industry": ""
+  },
+  "HXF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ISRL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SGLD": {
+    "sector": "Basic Materials",
+    "industry": "Gold"
+  },
+  "TLACU": {
+    "sector": "",
+    "industry": ""
   }
 }

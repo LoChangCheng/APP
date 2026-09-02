@@ -207155,5 +207155,29 @@
     "industry": "Unknown",
     "data_quality": "unreliable",
     "last_updated": "2026-09-01"
+  },
+  "HLTH": {
+    "mdd": -5.6,
+    "var_95": -4.27,
+    "cvar_95": -4.27,
+    "down_vol": 28.39,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Healthcare",
+    "industry": "Health Information Services",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-02"
+  },
+  "HWO": {
+    "mdd": -1.97,
+    "var_95": -0.93,
+    "cvar_95": -1.24,
+    "down_vol": 9.0,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-02"
   }
 }
