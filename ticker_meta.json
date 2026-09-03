@@ -64222,5 +64222,45 @@
   "TLACU": {
     "sector": "",
     "industry": ""
+  },
+  "3718.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DIVH": {
+    "sector": "",
+    "industry": ""
+  },
+  "HOS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NSAI": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "NSAIR": {
+    "sector": "",
+    "industry": ""
+  },
+  "NSAIW": {
+    "sector": "",
+    "industry": ""
+  },
+  "SKHQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "UCBG": {
+    "sector": "",
+    "industry": ""
+  },
+  "VOOY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YFOR": {
+    "sector": "",
+    "industry": ""
   }
 }
