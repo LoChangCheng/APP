@@ -64262,5 +64262,21 @@
   "YFOR": {
     "sector": "",
     "industry": ""
+  },
+  "JONE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JONER": {
+    "sector": "",
+    "industry": ""
+  },
+  "PJSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TSCZ": {
+    "sector": "",
+    "industry": ""
   }
 }
