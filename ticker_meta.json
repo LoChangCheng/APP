@@ -64278,5 +64278,25 @@
   "TSCZ": {
     "sector": "",
     "industry": ""
+  },
+  "HQDG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PJIN": {
+    "sector": "",
+    "industry": ""
+  },
+  "RIV-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SGRX": {
+    "sector": "",
+    "industry": ""
+  },
+  "XTND": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
