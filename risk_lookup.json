@@ -207515,5 +207515,113 @@
     "industry": "",
     "data_quality": "delisted",
     "last_updated": "2026-09-08"
+  },
+  "AUXX": {
+    "mdd": -96.44,
+    "var_95": -4.83,
+    "cvar_95": -6.42,
+    "down_vol": 55.23,
+    "raw_beta": 1.34,
+    "beta": 1.23,
+    "sector": "",
+    "industry": "",
+    "data_quality": "ok",
+    "last_updated": "2026-09-08"
+  },
+  "BGUS": {
+    "mdd": -3.34,
+    "var_95": -1.86,
+    "cvar_95": -2.04,
+    "down_vol": 17.84,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "ETF",
+    "industry": "Index Fund",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-09"
+  },
+  "CATLU": {
+    "mdd": -0.4,
+    "var_95": -0.1,
+    "cvar_95": -0.3,
+    "down_vol": 2.94,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-09"
+  },
+  "IOND": {
+    "mdd": -16.23,
+    "var_95": -3.65,
+    "cvar_95": -8.14,
+    "down_vol": 56.09,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-09"
+  },
+  "MSOL": {
+    "mdd": -9.24,
+    "var_95": -3.51,
+    "cvar_95": -5.48,
+    "down_vol": 47.05,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-09"
+  },
+  "MSSE": {
+    "mdd": -4.64,
+    "var_95": -2.71,
+    "cvar_95": -2.95,
+    "down_vol": 30.59,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-09"
+  },
+  "RAMZ": {
+    "mdd": -55.09,
+    "var_95": -14.47,
+    "cvar_95": -21.12,
+    "down_vol": 142.5,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "",
+    "industry": "",
+    "data_quality": "unreliable",
+    "last_updated": "2026-09-09"
+  },
+  "SKHA": {
+    "mdd": -23.62,
+    "var_95": -10.65,
+    "cvar_95": -18.62,
+    "down_vol": 121.07,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "",
+    "industry": "",
+    "data_quality": "unreliable",
+    "last_updated": "2026-09-09"
+  },
+  "SKHN": {
+    "mdd": -60.82,
+    "var_95": -16.5,
+    "cvar_95": -24.3,
+    "down_vol": 171.56,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "",
+    "industry": "",
+    "data_quality": "unreliable",
+    "last_updated": "2026-09-09"
   }
 }

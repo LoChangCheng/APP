@@ -64298,5 +64298,21 @@
   "XTND": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AMAC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "AMACW": {
+    "sector": "",
+    "industry": ""
+  },
+  "AUXX": {
+    "sector": "",
+    "industry": ""
+  },
+  "CHAD": {
+    "sector": "Financial Services",
+    "industry": "Asset Management"
   }
 }
