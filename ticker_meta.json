@@ -64314,5 +64314,41 @@
   "CHAD": {
     "sector": "Financial Services",
     "industry": "Asset Management"
+  },
+  "7825.TWO": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
+  },
+  "CCML": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DICE": {
+    "sector": "",
+    "industry": ""
+  },
+  "KATT": {
+    "sector": "",
+    "industry": ""
+  },
+  "KRSA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "NXAT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NXATW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RML": {
+    "sector": "",
+    "industry": ""
+  },
+  "TRXS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
