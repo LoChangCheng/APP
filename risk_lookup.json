@@ -145,15 +145,15 @@
   },
   "1441.TW": {
     "mdd": -52.81,
-    "var_95": -2.75,
-    "cvar_95": -3.06,
+    "var_95": -2.52,
+    "cvar_95": -3.0,
     "down_vol": 23.69,
     "raw_beta": 0.6,
     "beta": 0.73,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2515.TW": {
     "mdd": -52.51,
@@ -831,13 +831,13 @@
     "mdd": -40.98,
     "var_95": -1.43,
     "cvar_95": -3.22,
-    "down_vol": 21.93,
+    "down_vol": 20.49,
     "raw_beta": 0.4,
     "beta": 0.6,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6509.TWO": {
     "mdd": -64.7,
@@ -1401,7 +1401,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8040.TWO": {
     "mdd": -55.69,
@@ -1767,13 +1767,13 @@
     "mdd": -86.01,
     "var_95": -2.27,
     "cvar_95": -3.72,
-    "down_vol": 27.08,
-    "raw_beta": 0.34,
-    "beta": 0.56,
+    "down_vol": 26.1,
+    "raw_beta": 0.33,
+    "beta": 0.55,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2338.TW": {
     "mdd": -73.78,
@@ -2008,12 +2008,12 @@
     "var_95": -6.95,
     "cvar_95": -9.88,
     "down_vol": 81.95,
-    "raw_beta": 0.94,
+    "raw_beta": 0.95,
     "beta": 0.96,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3712.TW": {
     "mdd": -78.87,
@@ -2221,15 +2221,15 @@
   },
   "1304.TW": {
     "mdd": -75.02,
-    "var_95": -2.9,
-    "cvar_95": -4.85,
-    "down_vol": 35.11,
-    "raw_beta": 0.36,
+    "var_95": -2.87,
+    "cvar_95": -4.7,
+    "down_vol": 36.24,
+    "raw_beta": 0.37,
     "beta": 0.57,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4590.TW": {
     "mdd": -47.22,
@@ -2505,7 +2505,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "0057.TW": {
     "mdd": -33.04,
@@ -2548,12 +2548,12 @@
     "var_95": -2.08,
     "cvar_95": -3.36,
     "down_vol": 21.74,
-    "raw_beta": 0.46,
-    "beta": 0.64,
+    "raw_beta": 0.45,
+    "beta": 0.63,
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6516.TWO": {
     "mdd": -39.93,
@@ -2677,15 +2677,15 @@
   },
   "1310.TW": {
     "mdd": -65.6,
-    "var_95": -5.14,
-    "cvar_95": -7.76,
-    "down_vol": 46.2,
+    "var_95": -3.79,
+    "cvar_95": -7.33,
+    "down_vol": 44.38,
     "raw_beta": 0.31,
     "beta": 0.54,
     "sector": "Basic Materials",
     "industry": "Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4924.TWO": {
     "mdd": -69.36,
@@ -3027,13 +3027,13 @@
     "mdd": -36.32,
     "var_95": -1.21,
     "cvar_95": -1.9,
-    "down_vol": 14.34,
-    "raw_beta": 0.23,
+    "down_vol": 13.65,
+    "raw_beta": 0.22,
     "beta": 0.48,
     "sector": "Industrials",
     "industry": "Conglomerates",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3518.TW": {
     "mdd": -65.86,
@@ -3195,13 +3195,13 @@
     "mdd": -70.0,
     "var_95": -3.2,
     "cvar_95": -4.39,
-    "down_vol": 36.93,
-    "raw_beta": 0.39,
+    "down_vol": 37.25,
+    "raw_beta": 0.4,
     "beta": 0.59,
     "sector": "Basic Materials",
     "industry": "Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5211.TWO": {
     "mdd": -47.29,
@@ -3218,14 +3218,14 @@
   "1324.TW": {
     "mdd": -50.09,
     "var_95": -1.96,
-    "cvar_95": -2.64,
-    "down_vol": 21.07,
-    "raw_beta": 0.03,
-    "beta": 0.35,
+    "cvar_95": -2.05,
+    "down_vol": 19.5,
+    "raw_beta": 0.04,
+    "beta": 0.36,
     "sector": "Industrials",
     "industry": "Business Equipment & Supplies",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6781.TW": {
     "mdd": -75.2,
@@ -3290,14 +3290,14 @@
   "1452.TW": {
     "mdd": -49.63,
     "var_95": -1.31,
-    "cvar_95": -1.87,
-    "down_vol": 13.54,
+    "cvar_95": -1.71,
+    "down_vol": 13.61,
     "raw_beta": 0.26,
     "beta": 0.5,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "9911.TW": {
     "mdd": -16.44,
@@ -3789,7 +3789,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2836.TW": {
     "mdd": -22.57,
@@ -3865,15 +3865,15 @@
   },
   "1438.TW": {
     "mdd": -78.85,
-    "var_95": -1.0,
-    "cvar_95": -2.18,
-    "down_vol": 17.72,
+    "var_95": -0.89,
+    "cvar_95": -2.17,
+    "down_vol": 16.44,
     "raw_beta": 0.18,
     "beta": 0.45,
     "sector": "Real Estate",
     "industry": "Real Estate - Diversified",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6654.TWO": {
     "mdd": -60.1,
@@ -3999,13 +3999,13 @@
     "mdd": -61.58,
     "var_95": -1.77,
     "cvar_95": -3.39,
-    "down_vol": 23.73,
+    "down_vol": 22.46,
     "raw_beta": 0.38,
     "beta": 0.59,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5344.TWO": {
     "mdd": -70.57,
@@ -4143,13 +4143,13 @@
     "mdd": -24.55,
     "var_95": -1.15,
     "cvar_95": -1.85,
-    "down_vol": 14.92,
-    "raw_beta": 0.09,
+    "down_vol": 14.05,
+    "raw_beta": 0.08,
     "beta": 0.39,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6725.TWO": {
     "mdd": -44.95,
@@ -4341,7 +4341,7 @@
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5301.TWO": {
     "mdd": -90.32,
@@ -4569,19 +4569,19 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "fat_tail",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1321.TW": {
     "mdd": -34.23,
     "var_95": -1.99,
     "cvar_95": -2.72,
-    "down_vol": 19.64,
-    "raw_beta": 0.12,
+    "down_vol": 18.84,
+    "raw_beta": 0.11,
     "beta": 0.41,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5450.TWO": {
     "mdd": -48.17,
@@ -4851,13 +4851,13 @@
     "mdd": -43.04,
     "var_95": -2.45,
     "cvar_95": -3.52,
-    "down_vol": 28.58,
+    "down_vol": 25.71,
     "raw_beta": 0.32,
     "beta": 0.55,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6568.TWO": {
     "mdd": -76.74,
@@ -5055,13 +5055,13 @@
     "mdd": -36.74,
     "var_95": -2.18,
     "cvar_95": -2.96,
-    "down_vol": 22.92,
-    "raw_beta": 0.19,
+    "down_vol": 21.5,
+    "raw_beta": 0.18,
     "beta": 0.45,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3088.TWO": {
     "mdd": -49.91,
@@ -5091,13 +5091,13 @@
     "mdd": -29.14,
     "var_95": -1.56,
     "cvar_95": -2.3,
-    "down_vol": 17.26,
+    "down_vol": 16.12,
     "raw_beta": 0.23,
     "beta": 0.49,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2022.TW": {
     "mdd": -73.48,
@@ -5172,16 +5172,16 @@
     "last_updated": "2026-09-10"
   },
   "1325.TW": {
-    "mdd": -61.48,
+    "mdd": -60.75,
     "var_95": -2.07,
     "cvar_95": -2.66,
-    "down_vol": 23.52,
+    "down_vol": 23.59,
     "raw_beta": 0.37,
-    "beta": 0.57,
+    "beta": 0.58,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5236.TWO": {
     "mdd": -71.71,
@@ -5523,13 +5523,13 @@
     "mdd": -74.07,
     "var_95": -2.83,
     "cvar_95": -4.42,
-    "down_vol": 31.82,
+    "down_vol": 32.63,
     "raw_beta": 0.25,
     "beta": 0.5,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1264.TWO": {
     "mdd": -19.76,
@@ -5745,7 +5745,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3219.TWO": {
     "mdd": -80.12,
@@ -5845,15 +5845,15 @@
   },
   "1473.TW": {
     "mdd": -59.94,
-    "var_95": -1.01,
-    "cvar_95": -1.46,
-    "down_vol": 10.68,
+    "var_95": -0.99,
+    "cvar_95": -1.25,
+    "down_vol": 10.29,
     "raw_beta": 0.47,
     "beta": 0.64,
     "sector": "Consumer Cyclical",
     "industry": "Apparel Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8210.TW": {
     "mdd": -44.21,
@@ -6052,12 +6052,12 @@
     "var_95": -1.67,
     "cvar_95": -1.83,
     "down_vol": 14.63,
-    "raw_beta": 0.03,
+    "raw_beta": 0.04,
     "beta": 0.35,
     "sector": "Industrials",
     "industry": "Engineering & Construction",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3332.TWO": {
     "mdd": -31.7,
@@ -6723,13 +6723,13 @@
     "mdd": -55.2,
     "var_95": -1.77,
     "cvar_95": -3.57,
-    "down_vol": 18.08,
+    "down_vol": 17.76,
     "raw_beta": 0.34,
     "beta": 0.56,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6988.TW": {
     "mdd": -60.85,
@@ -6891,13 +6891,13 @@
     "mdd": -57.26,
     "var_95": -2.88,
     "cvar_95": -4.0,
-    "down_vol": 29.75,
+    "down_vol": 29.63,
     "raw_beta": 0.54,
     "beta": 0.69,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5871.TW": {
     "mdd": -59.33,
@@ -7161,7 +7161,7 @@
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4111.TWO": {
     "mdd": -29.22,
@@ -7273,15 +7273,15 @@
   },
   "1217.TW": {
     "mdd": -31.76,
-    "var_95": -0.6,
-    "cvar_95": -0.94,
-    "down_vol": 6.96,
+    "var_95": -0.51,
+    "cvar_95": -0.93,
+    "down_vol": 6.51,
     "raw_beta": 0.13,
     "beta": 0.42,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3685.TWO": {
     "mdd": -75.93,
@@ -7393,15 +7393,15 @@
   },
   "1337.TW": {
     "mdd": -51.87,
-    "var_95": -1.54,
-    "cvar_95": -2.56,
+    "var_95": -1.53,
+    "cvar_95": -2.54,
     "down_vol": 18.3,
     "raw_beta": 0.27,
     "beta": 0.51,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3209.TW": {
     "mdd": -39.04,
@@ -7731,13 +7731,13 @@
     "mdd": -53.01,
     "var_95": -1.2,
     "cvar_95": -1.58,
-    "down_vol": 10.11,
+    "down_vol": 9.89,
     "raw_beta": 0.26,
-    "beta": 0.5,
+    "beta": 0.51,
     "sector": "Consumer Cyclical",
     "industry": "Apparel Retail",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1414.TW": {
     "mdd": -47.33,
@@ -7749,7 +7749,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4161.TWO": {
     "mdd": -36.0,
@@ -7933,15 +7933,15 @@
   },
   "1108.TW": {
     "mdd": -24.84,
-    "var_95": -1.1,
-    "cvar_95": -1.86,
-    "down_vol": 13.72,
+    "var_95": -1.3,
+    "cvar_95": -2.22,
+    "down_vol": 14.71,
     "raw_beta": 0.18,
     "beta": 0.45,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6144.TWO": {
     "mdd": -89.51,
@@ -8032,12 +8032,12 @@
     "var_95": -3.15,
     "cvar_95": -3.29,
     "down_vol": 31.73,
-    "raw_beta": 0.17,
+    "raw_beta": 0.16,
     "beta": 0.44,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3679.TW": {
     "mdd": -31.1,
@@ -8691,13 +8691,13 @@
     "mdd": -35.13,
     "var_95": -1.09,
     "cvar_95": -1.47,
-    "down_vol": 10.03,
+    "down_vol": 9.63,
     "raw_beta": 0.17,
     "beta": 0.45,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2426.TW": {
     "mdd": -56.48,
@@ -11149,15 +11149,15 @@
   },
   "1435.TW": {
     "mdd": -80.82,
-    "var_95": -7.71,
-    "cvar_95": -8.85,
+    "var_95": -5.74,
+    "cvar_95": -8.74,
     "down_vol": 62.78,
-    "raw_beta": 0.74,
-    "beta": 0.82,
+    "raw_beta": 0.71,
+    "beta": 0.81,
     "sector": "Industrials",
     "industry": "Conglomerates",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5536.TWO": {
     "mdd": -58.54,
@@ -11187,13 +11187,13 @@
     "mdd": -50.98,
     "var_95": -2.79,
     "cvar_95": -4.85,
-    "down_vol": 27.98,
-    "raw_beta": 0.31,
+    "down_vol": 27.05,
+    "raw_beta": 0.3,
     "beta": 0.53,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4946.TWO": {
     "mdd": -73.8,
@@ -11247,13 +11247,13 @@
     "mdd": -45.13,
     "var_95": -3.3,
     "cvar_95": -5.24,
-    "down_vol": 29.1,
-    "raw_beta": 0.38,
+    "down_vol": 28.55,
+    "raw_beta": 0.37,
     "beta": 0.58,
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8284.TWO": {
     "mdd": -17.06,
@@ -11433,7 +11433,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Apparel Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2301.TW": {
     "mdd": -51.48,
@@ -11535,13 +11535,13 @@
     "mdd": -54.68,
     "var_95": -3.04,
     "cvar_95": -4.91,
-    "down_vol": 28.82,
+    "down_vol": 27.55,
     "raw_beta": 0.24,
     "beta": 0.49,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8097.TWO": {
     "mdd": -49.72,
@@ -11642,14 +11642,14 @@
   "1456.TW": {
     "mdd": -55.73,
     "var_95": -2.87,
-    "cvar_95": -3.3,
+    "cvar_95": -3.22,
     "down_vol": 34.73,
     "raw_beta": 0.21,
     "beta": 0.47,
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6015.TWO": {
     "mdd": -46.74,
@@ -11799,13 +11799,13 @@
     "mdd": -69.22,
     "var_95": -1.98,
     "cvar_95": -2.91,
-    "down_vol": 21.83,
+    "down_vol": 20.69,
     "raw_beta": 0.24,
     "beta": 0.49,
     "sector": "Real Estate",
     "industry": "Real Estate - Development",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8034.TWO": {
     "mdd": -60.07,
@@ -12024,16 +12024,16 @@
     "last_updated": "2026-09-10"
   },
   "1256.TW": {
-    "mdd": -72.21,
+    "mdd": -72.17,
     "var_95": -3.46,
     "cvar_95": -5.13,
-    "down_vol": 34.03,
+    "down_vol": 32.37,
     "raw_beta": 0.58,
     "beta": 0.72,
     "sector": "Consumer Defensive",
     "industry": "Beverages - Non-Alcoholic",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4534.TWO": {
     "mdd": -54.1,
@@ -12051,37 +12051,37 @@
     "mdd": -33.53,
     "var_95": -1.48,
     "cvar_95": -3.96,
-    "down_vol": 25.79,
+    "down_vol": 24.15,
     "raw_beta": 0.4,
     "beta": 0.6,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1103.TW": {
     "mdd": -39.19,
     "var_95": -0.76,
     "cvar_95": -1.59,
-    "down_vol": 11.8,
-    "raw_beta": 0.27,
+    "down_vol": 11.09,
+    "raw_beta": 0.26,
     "beta": 0.51,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1457.TW": {
     "mdd": -35.61,
     "var_95": -1.38,
     "cvar_95": -1.67,
-    "down_vol": 15.13,
+    "down_vol": 14.12,
     "raw_beta": 0.32,
     "beta": 0.54,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3288.TWO": {
     "mdd": -63.78,
@@ -12237,7 +12237,7 @@
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4142.TW": {
     "mdd": -70.53,
@@ -12591,13 +12591,13 @@
     "mdd": -23.78,
     "var_95": -1.74,
     "cvar_95": -1.95,
-    "down_vol": 15.89,
+    "down_vol": 15.29,
     "raw_beta": 0.08,
     "beta": 0.38,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3447.TW": {
     "mdd": -73.05,
@@ -12625,15 +12625,15 @@
   },
   "1466.TW": {
     "mdd": -34.64,
-    "var_95": -3.3,
-    "cvar_95": -5.12,
-    "down_vol": 32.88,
+    "var_95": -2.94,
+    "cvar_95": -4.81,
+    "down_vol": 32.71,
     "raw_beta": 0.62,
     "beta": 0.74,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4536.TW": {
     "mdd": -36.8,
@@ -12795,13 +12795,13 @@
     "mdd": -20.97,
     "var_95": -1.82,
     "cvar_95": -2.72,
-    "down_vol": 17.04,
+    "down_vol": 16.24,
     "raw_beta": 0.12,
     "beta": 0.41,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4728.TWO": {
     "mdd": -37.04,
@@ -13516,12 +13516,12 @@
     "var_95": -1.6,
     "cvar_95": -2.19,
     "down_vol": 17.56,
-    "raw_beta": 0.55,
-    "beta": 0.7,
+    "raw_beta": 0.52,
+    "beta": 0.68,
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6754.TW": {
     "mdd": -50.69,
@@ -13563,13 +13563,13 @@
     "mdd": -34.4,
     "var_95": -1.42,
     "cvar_95": -2.0,
-    "down_vol": 14.37,
+    "down_vol": 13.61,
     "raw_beta": 0.33,
     "beta": 0.55,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "7743.TWO": {
     "mdd": -72.97,
@@ -13599,13 +13599,13 @@
     "mdd": -32.2,
     "var_95": -1.73,
     "cvar_95": -4.1,
-    "down_vol": 29.38,
+    "down_vol": 28.0,
     "raw_beta": 0.17,
     "beta": 0.44,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6606.TW": {
     "mdd": -27.66,
@@ -13659,13 +13659,13 @@
     "mdd": -39.79,
     "var_95": -1.39,
     "cvar_95": -2.18,
-    "down_vol": 14.17,
+    "down_vol": 13.81,
     "raw_beta": 0.1,
     "beta": 0.4,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6123.TWO": {
     "mdd": -38.46,
@@ -14703,13 +14703,13 @@
     "mdd": -70.78,
     "var_95": -4.99,
     "cvar_95": -6.51,
-    "down_vol": 52.33,
+    "down_vol": 48.94,
     "raw_beta": 0.74,
     "beta": 0.82,
     "sector": "Basic Materials",
     "industry": "Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6666.TW": {
     "mdd": -63.2,
@@ -14761,15 +14761,15 @@
   },
   "1323.TW": {
     "mdd": -45.71,
-    "var_95": -1.26,
-    "cvar_95": -1.54,
+    "var_95": -1.16,
+    "cvar_95": -1.48,
     "down_vol": 12.99,
     "raw_beta": 0.06,
     "beta": 0.37,
     "sector": "Consumer Cyclical",
     "industry": "Packaging & Containers",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1810.TW": {
     "mdd": -51.97,
@@ -15039,13 +15039,13 @@
     "mdd": -20.71,
     "var_95": -1.18,
     "cvar_95": -2.72,
-    "down_vol": 18.24,
+    "down_vol": 17.1,
     "raw_beta": 0.15,
     "beta": 0.43,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2302.TW": {
     "mdd": -39.62,
@@ -15549,7 +15549,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Leisure",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5608.TW": {
     "mdd": -74.45,
@@ -15793,15 +15793,15 @@
   },
   "1236.TW": {
     "mdd": -44.55,
-    "var_95": -0.62,
-    "cvar_95": -1.75,
-    "down_vol": 16.12,
-    "raw_beta": 0.13,
+    "var_95": -0.59,
+    "cvar_95": -1.74,
+    "down_vol": 14.39,
+    "raw_beta": 0.12,
     "beta": 0.41,
     "sector": "Consumer Defensive",
     "industry": "Confectioners",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6642.TWO": {
     "mdd": -53.88,
@@ -16296,16 +16296,16 @@
     "last_updated": "2026-09-10"
   },
   "1476.TW": {
-    "mdd": -47.11,
+    "mdd": -47.84,
     "var_95": -2.26,
     "cvar_95": -3.77,
-    "down_vol": 25.38,
+    "down_vol": 25.75,
     "raw_beta": 0.63,
     "beta": 0.75,
     "sector": "Consumer Cyclical",
     "industry": "Apparel Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3406.TW": {
     "mdd": -54.43,
@@ -16341,7 +16341,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1232.TW": {
     "mdd": -14.36,
@@ -16353,7 +16353,7 @@
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3022.TW": {
     "mdd": -49.32,
@@ -16437,7 +16437,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Apparel Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6470.TWO": {
     "mdd": -54.43,
@@ -16685,11 +16685,11 @@
     "cvar_95": -5.37,
     "down_vol": 38.96,
     "raw_beta": 0.47,
-    "beta": 0.64,
+    "beta": 0.65,
     "sector": "Basic Materials",
     "industry": "Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8093.TWO": {
     "mdd": -66.38,
@@ -16912,12 +16912,12 @@
     "var_95": -2.29,
     "cvar_95": -3.24,
     "down_vol": 20.66,
-    "raw_beta": 0.14,
+    "raw_beta": 0.15,
     "beta": 0.43,
     "sector": "Consumer Cyclical",
     "industry": "Footwear & Accessories",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4139.TWO": {
     "mdd": -60.77,
@@ -16993,15 +16993,15 @@
   },
   "1316.TW": {
     "mdd": -63.99,
-    "var_95": -3.72,
-    "cvar_95": -4.83,
-    "down_vol": 37.13,
+    "var_95": -3.24,
+    "cvar_95": -4.73,
+    "down_vol": 35.37,
     "raw_beta": 0.34,
     "beta": 0.56,
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6207.TWO": {
     "mdd": -59.71,
@@ -17068,12 +17068,12 @@
     "var_95": -2.68,
     "cvar_95": -3.19,
     "down_vol": 23.18,
-    "raw_beta": 0.18,
-    "beta": 0.45,
+    "raw_beta": 0.17,
+    "beta": 0.44,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6579.TW": {
     "mdd": -50.74,
@@ -17187,13 +17187,13 @@
     "mdd": -45.65,
     "var_95": -1.93,
     "cvar_95": -2.95,
-    "down_vol": 20.38,
-    "raw_beta": 0.25,
+    "down_vol": 19.74,
+    "raw_beta": 0.26,
     "beta": 0.5,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "5202.TWO": {
     "mdd": -64.53,
@@ -17329,27 +17329,27 @@
   },
   "1445.TW": {
     "mdd": -55.21,
-    "var_95": -3.33,
-    "cvar_95": -3.68,
+    "var_95": -2.69,
+    "cvar_95": -3.38,
     "down_vol": 23.5,
     "raw_beta": 0.47,
     "beta": 0.65,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1309.TW": {
     "mdd": -70.72,
-    "var_95": -3.54,
-    "cvar_95": -5.31,
-    "down_vol": 37.49,
+    "var_95": -3.53,
+    "cvar_95": -5.28,
+    "down_vol": 37.01,
     "raw_beta": 0.26,
-    "beta": 0.5,
+    "beta": 0.51,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1560.TW": {
     "mdd": -55.94,
@@ -17677,27 +17677,27 @@
   },
   "1475.TW": {
     "mdd": -60.97,
-    "var_95": -2.86,
-    "cvar_95": -3.43,
-    "down_vol": 24.49,
+    "var_95": -2.37,
+    "cvar_95": -3.39,
+    "down_vol": 23.47,
     "raw_beta": 0.48,
     "beta": 0.65,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "1451.TW": {
     "mdd": -32.89,
-    "var_95": -0.86,
-    "cvar_95": -1.39,
-    "down_vol": 8.83,
+    "var_95": -0.61,
+    "cvar_95": -1.15,
+    "down_vol": 8.36,
     "raw_beta": 0.2,
     "beta": 0.47,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4991.TWO": {
     "mdd": -63.1,
@@ -17751,13 +17751,13 @@
     "mdd": -45.56,
     "var_95": -1.21,
     "cvar_95": -1.57,
-    "down_vol": 12.53,
+    "down_vol": 12.6,
     "raw_beta": 0.14,
     "beta": 0.43,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2385.TW": {
     "mdd": -54.1,
@@ -17917,15 +17917,15 @@
   },
   "1471.TW": {
     "mdd": -64.57,
-    "var_95": -2.89,
-    "cvar_95": -3.98,
-    "down_vol": 26.03,
-    "raw_beta": 0.72,
-    "beta": 0.81,
+    "var_95": -2.75,
+    "cvar_95": -3.86,
+    "down_vol": 25.09,
+    "raw_beta": 0.73,
+    "beta": 0.82,
     "sector": "Technology",
     "industry": "Computer Hardware",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2392.TW": {
     "mdd": -60.45,
@@ -18027,13 +18027,13 @@
     "mdd": -20.68,
     "var_95": -0.89,
     "cvar_95": -1.32,
-    "down_vol": 10.07,
+    "down_vol": 9.51,
     "raw_beta": 0.15,
     "beta": 0.43,
     "sector": "Consumer Defensive",
     "industry": "Beverages - Non-Alcoholic",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "9935.TW": {
     "mdd": -45.37,
@@ -18219,13 +18219,13 @@
     "mdd": -76.93,
     "var_95": -3.67,
     "cvar_95": -4.93,
-    "down_vol": 33.92,
+    "down_vol": 33.64,
     "raw_beta": 0.3,
     "beta": 0.53,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8917.TWO": {
     "mdd": -38.32,
@@ -18423,13 +18423,13 @@
     "mdd": -39.67,
     "var_95": -1.14,
     "cvar_95": -1.54,
-    "down_vol": 12.26,
+    "down_vol": 12.45,
     "raw_beta": 0.27,
     "beta": 0.51,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6899.TWO": {
     "mdd": -43.6,
@@ -18820,12 +18820,12 @@
     "var_95": -0.96,
     "cvar_95": -1.68,
     "down_vol": 12.69,
-    "raw_beta": 0.47,
+    "raw_beta": 0.48,
     "beta": 0.65,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8444.TWO": {
     "mdd": -96.81,
@@ -19023,13 +19023,13 @@
     "mdd": -68.33,
     "var_95": -1.84,
     "cvar_95": -3.53,
-    "down_vol": 21.36,
+    "down_vol": 19.78,
     "raw_beta": 0.28,
     "beta": 0.52,
     "sector": "Real Estate",
     "industry": "Real Estate - Development",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3162.TWO": {
     "mdd": -56.55,
@@ -19381,15 +19381,15 @@
   },
   "1443.TW": {
     "mdd": -40.28,
-    "var_95": -2.67,
-    "cvar_95": -3.77,
-    "down_vol": 23.51,
+    "var_95": -2.45,
+    "cvar_95": -2.88,
+    "down_vol": 22.21,
     "raw_beta": 0.23,
     "beta": 0.48,
     "sector": "Industrials",
     "industry": "Integrated Freight & Logistics",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4908.TWO": {
     "mdd": -59.11,
@@ -19611,13 +19611,13 @@
     "mdd": -69.26,
     "var_95": -4.04,
     "cvar_95": -5.85,
-    "down_vol": 43.25,
+    "down_vol": 41.37,
     "raw_beta": 0.54,
     "beta": 0.69,
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4755.TW": {
     "mdd": -59.66,
@@ -19873,15 +19873,15 @@
   },
   "1419.TW": {
     "mdd": -35.4,
-    "var_95": -1.79,
-    "cvar_95": -2.28,
-    "down_vol": 18.63,
+    "var_95": -2.06,
+    "cvar_95": -2.83,
+    "down_vol": 20.68,
     "raw_beta": 0.13,
     "beta": 0.42,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6419.TWO": {
     "mdd": -70.62,
@@ -20445,7 +20445,7 @@
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "9933.TW": {
     "mdd": -52.99,
@@ -20697,7 +20697,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8429.TW": {
     "mdd": -60.4,
@@ -20748,16 +20748,16 @@
     "last_updated": "2026-09-10"
   },
   "1446.TW": {
-    "mdd": -73.13,
-    "var_95": -1.22,
-    "cvar_95": -2.16,
-    "down_vol": 14.23,
+    "mdd": -73.23,
+    "var_95": -1.15,
+    "cvar_95": -2.13,
+    "down_vol": 13.55,
     "raw_beta": 0.57,
     "beta": 0.71,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2436.TW": {
     "mdd": -64.53,
@@ -21111,13 +21111,13 @@
     "mdd": -73.93,
     "var_95": -3.45,
     "cvar_95": -3.65,
-    "down_vol": 30.92,
+    "down_vol": 28.65,
     "raw_beta": 0.37,
     "beta": 0.58,
     "sector": "Consumer Defensive",
     "industry": "Farm Products",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2832.TW": {
     "mdd": -15.58,
@@ -21231,13 +21231,13 @@
     "mdd": -43.69,
     "var_95": -1.94,
     "cvar_95": -3.93,
-    "down_vol": 23.24,
-    "raw_beta": 0.46,
+    "down_vol": 22.07,
+    "raw_beta": 0.47,
     "beta": 0.64,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2109.TW": {
     "mdd": -23.82,
@@ -21257,11 +21257,11 @@
     "cvar_95": -2.09,
     "down_vol": 19.15,
     "raw_beta": 0.32,
-    "beta": 0.55,
+    "beta": 0.54,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6560.TWO": {
     "mdd": -64.89,
@@ -21541,15 +21541,15 @@
   },
   "1409.TW": {
     "mdd": -38.89,
-    "var_95": -3.37,
-    "cvar_95": -6.06,
-    "down_vol": 40.56,
+    "var_95": -6.33,
+    "cvar_95": -7.87,
+    "down_vol": 51.67,
     "raw_beta": 0.75,
     "beta": 0.83,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8047.TWO": {
     "mdd": -54.19,
@@ -21579,13 +21579,13 @@
     "mdd": -41.68,
     "var_95": -2.92,
     "cvar_95": -3.31,
-    "down_vol": 31.48,
-    "raw_beta": 0.16,
+    "down_vol": 30.06,
+    "raw_beta": 0.17,
     "beta": 0.44,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2409.TW": {
     "mdd": -51.72,
@@ -21639,13 +21639,13 @@
     "mdd": -24.53,
     "var_95": -1.31,
     "cvar_95": -1.57,
-    "down_vol": 10.93,
-    "raw_beta": 0.21,
-    "beta": 0.47,
+    "down_vol": 11.01,
+    "raw_beta": 0.22,
+    "beta": 0.48,
     "sector": "Basic Materials",
     "industry": "Building Materials",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "8454.TW": {
     "mdd": -86.7,
@@ -21783,13 +21783,13 @@
     "mdd": -57.15,
     "var_95": -5.06,
     "cvar_95": -5.46,
-    "down_vol": 37.49,
+    "down_vol": 41.41,
     "raw_beta": -0.07,
     "beta": 0.29,
     "sector": "Consumer Defensive",
     "industry": "Beverages - Non-Alcoholic",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6546.TWO": {
     "mdd": -76.31,
@@ -22251,13 +22251,13 @@
     "mdd": -44.39,
     "var_95": -1.92,
     "cvar_95": -2.01,
-    "down_vol": 16.43,
-    "raw_beta": 0.44,
+    "down_vol": 15.43,
+    "raw_beta": 0.43,
     "beta": 0.62,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "6016.TWO": {
     "mdd": -42.09,
@@ -22479,13 +22479,13 @@
     "mdd": -45.6,
     "var_95": -2.17,
     "cvar_95": -2.91,
-    "down_vol": 21.35,
+    "down_vol": 20.29,
     "raw_beta": 0.17,
     "beta": 0.44,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "4807.TW": {
     "mdd": -60.74,
@@ -22743,13 +22743,13 @@
     "mdd": -64.56,
     "var_95": -1.85,
     "cvar_95": -3.82,
-    "down_vol": 21.88,
+    "down_vol": 21.08,
     "raw_beta": 0.19,
     "beta": 0.46,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "2312.TW": {
     "mdd": -51.34,
@@ -22971,13 +22971,13 @@
     "mdd": -48.91,
     "var_95": -1.58,
     "cvar_95": -1.77,
-    "down_vol": 12.62,
+    "down_vol": 12.1,
     "raw_beta": 0.12,
     "beta": 0.41,
     "sector": "Consumer Defensive",
     "industry": "Packaged Foods",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "9906.TW": {
     "mdd": -83.31,
@@ -23487,13 +23487,13 @@
     "mdd": -58.3,
     "var_95": -2.92,
     "cvar_95": -4.55,
-    "down_vol": 29.74,
-    "raw_beta": 0.49,
+    "down_vol": 28.32,
+    "raw_beta": 0.5,
     "beta": 0.66,
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
     "data_quality": "ok",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-10"
   },
   "3511.TWO": {
     "mdd": -62.8,
@@ -114625,14 +114625,16 @@
     "last_updated": "2026-09-10"
   },
   "SWRD": {
-    "mdd": -89.9,
-    "var_95": -18.92,
-    "cvar_95": -24.72,
-    "down_vol": 191.91,
-    "raw_beta": -0.61,
-    "beta": -0.08,
+    "mdd": -87.38,
+    "var_95": -45.61,
+    "cvar_95": -45.89,
+    "down_vol": 294.66,
+    "raw_beta": -0.91,
+    "beta": -0.28,
+    "sector": "Financial Services",
+    "industry": "Credit Services",
     "data_quality": "unreliable",
-    "last_updated": "2026-03-23"
+    "last_updated": "2026-09-11"
   },
   "SWVL": {
     "mdd": -99.72,
@@ -207529,100 +207531,100 @@
     "last_updated": "2026-09-08"
   },
   "BGUS": {
-    "mdd": -3.34,
+    "mdd": -4.68,
     "var_95": -1.86,
     "cvar_95": -2.04,
-    "down_vol": 17.84,
+    "down_vol": 17.52,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "ETF",
     "industry": "Index Fund",
     "data_quality": "short_history",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "CATLU": {
     "mdd": -0.4,
-    "var_95": -0.1,
+    "var_95": -0.3,
     "cvar_95": -0.3,
-    "down_vol": 2.94,
+    "down_vol": 3.66,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "Financial Services",
     "industry": "Shell Companies",
     "data_quality": "short_history",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "IOND": {
     "mdd": -16.23,
-    "var_95": -3.65,
-    "cvar_95": -8.14,
-    "down_vol": 56.09,
+    "var_95": -6.95,
+    "cvar_95": -11.01,
+    "down_vol": 72.41,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "Financial Services",
     "industry": "Capital Markets",
     "data_quality": "short_history",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "MSOL": {
     "mdd": -9.24,
     "var_95": -3.51,
     "cvar_95": -5.48,
-    "down_vol": 47.05,
+    "down_vol": 42.39,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "Unknown",
     "industry": "Unknown",
     "data_quality": "short_history",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "MSSE": {
     "mdd": -4.64,
     "var_95": -2.71,
     "cvar_95": -2.95,
-    "down_vol": 30.59,
+    "down_vol": 26.07,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "Unknown",
     "industry": "Unknown",
     "data_quality": "short_history",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "RAMZ": {
-    "mdd": -55.09,
-    "var_95": -14.47,
-    "cvar_95": -21.12,
-    "down_vol": 142.5,
+    "mdd": -57.64,
+    "var_95": -13.54,
+    "cvar_95": -19.09,
+    "down_vol": 129.1,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "",
     "industry": "",
     "data_quality": "unreliable",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "SKHA": {
     "mdd": -23.62,
-    "var_95": -10.65,
-    "cvar_95": -18.62,
+    "var_95": -9.85,
+    "cvar_95": -15.6,
     "down_vol": 121.07,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "",
     "industry": "",
     "data_quality": "unreliable",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "SKHN": {
-    "mdd": -60.82,
-    "var_95": -16.5,
-    "cvar_95": -24.3,
-    "down_vol": 171.56,
+    "mdd": -69.72,
+    "var_95": -16.16,
+    "cvar_95": -21.92,
+    "down_vol": 177.07,
     "raw_beta": 1.0,
     "beta": 1.0,
     "sector": "",
     "industry": "",
     "data_quality": "unreliable",
-    "last_updated": "2026-09-09"
+    "last_updated": "2026-09-11"
   },
   "7825.TWO": {
     "mdd": -68.96,
@@ -207791,5 +207793,101 @@
     "industry": "Unknown",
     "data_quality": "short_history",
     "last_updated": "2026-09-10"
+  },
+  "ADIG": {
+    "mdd": -28.05,
+    "var_95": -7.0,
+    "cvar_95": -13.92,
+    "down_vol": 97.16,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
+  },
+  "ARMS": {
+    "mdd": -1.02,
+    "var_95": -0.4,
+    "cvar_95": -0.4,
+    "down_vol": 3.41,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "",
+    "industry": "",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
+  },
+  "ELOL": {
+    "mdd": -14.0,
+    "var_95": -7.4,
+    "cvar_95": -14.0,
+    "down_vol": 75.63,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
+  },
+  "GYGY": {
+    "mdd": -93.3,
+    "var_95": -21.0,
+    "cvar_95": -36.75,
+    "down_vol": 229.48,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "data_quality": "unreliable",
+    "last_updated": "2026-09-11"
+  },
+  "ISNR": {
+    "mdd": -1.41,
+    "var_95": -0.81,
+    "cvar_95": -1.01,
+    "down_vol": 9.89,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
+  },
+  "ISNRW": {
+    "mdd": -33.23,
+    "var_95": -15.38,
+    "cvar_95": -15.38,
+    "down_vol": 159.17,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "unreliable",
+    "last_updated": "2026-09-11"
+  },
+  "JMKE": {
+    "mdd": -17.98,
+    "var_95": -4.82,
+    "cvar_95": -5.61,
+    "down_vol": 52.09,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
+  },
+  "REF": {
+    "mdd": -20.9,
+    "var_95": -5.75,
+    "cvar_95": -8.01,
+    "down_vol": 62.72,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-11"
   }
 }

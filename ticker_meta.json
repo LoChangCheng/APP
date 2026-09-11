@@ -64350,5 +64350,81 @@
   "TRXS": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACBE": {
+    "sector": "",
+    "industry": ""
+  },
+  "ACBH": {
+    "sector": "",
+    "industry": ""
+  },
+  "AIFR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ATTT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRTM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRTMW": {
+    "sector": "",
+    "industry": ""
+  },
+  "CRAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EOCN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MFSD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MFSX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NRAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SWRD": {
+    "sector": "Financial Services",
+    "industry": "Credit Services"
+  },
+  "VEEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VEGX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLCD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLCU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLPD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLPU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
