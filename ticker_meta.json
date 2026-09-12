@@ -64426,5 +64426,29 @@
   "XLPU": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "GEMQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HLSQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MLCC": {
+    "sector": "",
+    "industry": ""
+  },
+  "OCLT": {
+    "sector": "",
+    "industry": ""
+  },
+  "OCLTR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCLTW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
