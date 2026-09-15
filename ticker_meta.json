@@ -64450,5 +64450,29 @@
   "OCLTW": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ABND": {
+    "sector": "",
+    "industry": ""
+  },
+  "AFDM": {
+    "sector": "",
+    "industry": ""
+  },
+  "AFEM": {
+    "sector": "",
+    "industry": ""
+  },
+  "DMXU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NFEGP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TIZE": {
+    "sector": "",
+    "industry": ""
   }
 }
