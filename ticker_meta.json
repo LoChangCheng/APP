@@ -64474,5 +64474,81 @@
   "TIZE": {
     "sector": "",
     "industry": ""
+  },
+  "2938.TWO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances"
+  },
+  "AT": {
+    "sector": "",
+    "industry": ""
+  },
+  "CSEP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "EMSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "HSEP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IDSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "KCHP": {
+    "sector": "",
+    "industry": ""
+  },
+  "LPSV": {
+    "sector": "",
+    "industry": ""
+  },
+  "NUIB": {
+    "sector": "",
+    "industry": ""
+  },
+  "PCPC": {
+    "sector": "",
+    "industry": ""
+  },
+  "QQSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "QSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "RNAQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RNAQW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SALI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCSE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SEPC": {
+    "sector": "",
+    "industry": ""
+  },
+  "XUSM": {
+    "sector": "",
+    "industry": ""
   }
 }
