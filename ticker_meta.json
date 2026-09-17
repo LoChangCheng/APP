@@ -64550,5 +64550,33 @@
   "XUSM": {
     "sector": "",
     "industry": ""
+  },
+  "AICH": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ASBH": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "BSMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BUIL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "IQGR": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "JINT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "WCCB": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
   }
 }
