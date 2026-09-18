@@ -64578,5 +64578,61 @@
   "WCCB": {
     "sector": "Financial Services",
     "industry": "Banks - Regional"
+  },
+  "CATL": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "CATLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CGFS": {
+    "sector": "",
+    "industry": ""
+  },
+  "DRK": {
+    "sector": "",
+    "industry": ""
+  },
+  "HUMM": {
+    "sector": "",
+    "industry": ""
+  },
+  "MNGZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MTAK": {
+    "sector": "",
+    "industry": ""
+  },
+  "MTAKW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PWRX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "TDNA": {
+    "sector": "",
+    "industry": ""
+  },
+  "TLAC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "TLACW": {
+    "sector": "",
+    "industry": ""
+  },
+  "TMID": {
+    "sector": "",
+    "industry": ""
+  },
+  "TSEE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
