@@ -208513,5 +208513,53 @@
     "industry": "",
     "data_quality": "short_history",
     "last_updated": "2026-09-18"
+  },
+  "BLSM": {
+    "mdd": -9.03,
+    "var_95": -4.06,
+    "cvar_95": -6.44,
+    "down_vol": 53.17,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-18"
+  },
+  "LTGO": {
+    "mdd": -13.84,
+    "var_95": -5.53,
+    "cvar_95": -9.12,
+    "down_vol": 72.76,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-19"
+  },
+  "OCLTU": {
+    "mdd": -1.27,
+    "var_95": -1.27,
+    "cvar_95": -1.27,
+    "down_vol": 13.08,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-19"
+  },
+  "TP": {
+    "mdd": -20.68,
+    "var_95": -9.22,
+    "cvar_95": -14.05,
+    "down_vol": 91.64,
+    "raw_beta": 1.0,
+    "beta": 1.0,
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "data_quality": "short_history",
+    "last_updated": "2026-09-19"
   }
 }

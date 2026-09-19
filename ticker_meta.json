@@ -64634,5 +64634,33 @@
   "TSEE": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ASSX": {
+    "sector": "",
+    "industry": ""
+  },
+  "ETRA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "HOST": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LEDRU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "OIG": {
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty"
+  },
+  "XIII": {
+    "sector": "",
+    "industry": ""
+  },
+  "XIIIW": {
+    "sector": "",
+    "industry": ""
   }
 }
