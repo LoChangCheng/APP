@@ -64662,5 +64662,29 @@
   "XIIIW": {
     "sector": "",
     "industry": ""
+  },
+  "7812.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "7856.TWO": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials"
+  },
+  "CTAG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DQSE": {
+    "sector": "",
+    "industry": ""
+  },
+  "QQBF": {
+    "sector": "",
+    "industry": ""
+  },
+  "SECA": {
+    "sector": "",
+    "industry": ""
   }
 }
