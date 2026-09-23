@@ -64686,5 +64686,45 @@
   "SECA": {
     "sector": "",
     "industry": ""
+  },
+  "ENRG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ESYN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GCPU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MNGB": {
+    "sector": "",
+    "industry": ""
+  },
+  "NWCL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NWCLW": {
+    "sector": "",
+    "industry": ""
+  },
+  "QQQB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SVIA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SVIAW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VOOB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
