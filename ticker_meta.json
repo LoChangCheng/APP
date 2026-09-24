@@ -64726,5 +64726,77 @@
   "VOOB": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AIBF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CHIP": {
+    "sector": "",
+    "industry": ""
+  },
+  "LOVIU": {
+    "sector": "",
+    "industry": ""
+  },
+  "MYCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MYHF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MYML": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NECK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QQI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TXCA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TXNY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VMHY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VMSD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVAD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVAZ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVGL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVMS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVMT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XVPT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
