@@ -64798,5 +64798,49 @@
   "XVPT": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "DCAP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FJDI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FJDIR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FJDIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HUCK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HWMV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MGIN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ONEN": {
+    "sector": "Utilities",
+    "industry": "Utilities - Independent Power Producers"
+  },
+  "TLIE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TORK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VAIC": {
+    "sector": "",
+    "industry": ""
   }
 }
