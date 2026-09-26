@@ -64842,5 +64842,29 @@
   "VAIC": {
     "sector": "",
     "industry": ""
+  },
+  "ADRX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "BRRKU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PBCS": {
+    "sector": "",
+    "industry": ""
+  },
+  "PBUB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PBWN": {
+    "sector": "",
+    "industry": ""
+  },
+  "PNAQ": {
+    "sector": "",
+    "industry": ""
   }
 }
