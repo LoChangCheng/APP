@@ -64866,5 +64866,29 @@
   "PNAQ": {
     "sector": "",
     "industry": ""
+  },
+  "FGC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FGCPP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GOW": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Equipment & Services"
+  },
+  "LCIV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PFRX": {
+    "sector": "",
+    "industry": ""
+  },
+  "THRMV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
