@@ -64890,5 +64890,25 @@
   "THRMV": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ICMO": {
+    "sector": "",
+    "industry": ""
+  },
+  "LUNC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MUY": {
+    "sector": "",
+    "industry": ""
+  },
+  "NRR": {
+    "sector": "",
+    "industry": ""
+  },
+  "RZAI": {
+    "sector": "",
+    "industry": ""
   }
 }
