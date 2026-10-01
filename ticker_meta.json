@@ -64910,5 +64910,45 @@
   "RZAI": {
     "sector": "",
     "industry": ""
+  },
+  "00992B.TWO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACCV": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts"
+  },
+  "ACIG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACSM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AVNC": {
+    "sector": "",
+    "industry": ""
+  },
+  "DBAR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ENHE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FFR": {
+    "sector": "",
+    "industry": ""
+  },
+  "IVAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "JQTY": {
+    "sector": "",
+    "industry": ""
   }
 }
