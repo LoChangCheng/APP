@@ -64950,5 +64950,53 @@
   "JQTY": {
     "sector": "",
     "industry": ""
+  },
+  "CHWM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EAFH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LLMA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MMEDV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MMHI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OCT": {
+    "sector": "",
+    "industry": ""
+  },
+  "OCTI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OPNW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TDEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRIL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VYLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XX": {
+    "sector": "",
+    "industry": ""
   }
 }
