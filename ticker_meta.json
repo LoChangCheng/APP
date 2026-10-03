@@ -64998,5 +64998,25 @@
   "XX": {
     "sector": "",
     "industry": ""
+  },
+  "BCOM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DX-D": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NSTR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SAIQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
