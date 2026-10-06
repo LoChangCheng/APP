@@ -65018,5 +65018,49 @@
   "SAIQ": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "00412A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "6604.TWO": {
+    "sector": "",
+    "industry": ""
+  },
+  "IPHX": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "IPHXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MLRG": {
+    "sector": "",
+    "industry": ""
+  },
+  "MSML": {
+    "sector": "",
+    "industry": ""
+  },
+  "RWAYM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TBCV": {
+    "sector": "",
+    "industry": ""
+  },
+  "TBCVW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VJET": {
+    "sector": "",
+    "industry": ""
+  },
+  "WQEY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
