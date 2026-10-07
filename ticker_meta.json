@@ -65062,5 +65062,25 @@
   "WQEY": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "GMAC": {
+    "sector": "ETF",
+    "industry": "Macro Trading"
+  },
+  "HFIX": {
+    "sector": "ETF",
+    "industry": "High Yield Bond"
+  },
+  "PAXGU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SKYD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UBIQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
