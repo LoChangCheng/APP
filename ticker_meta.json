@@ -65082,5 +65082,41 @@
   "UBIQ": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ACYB": {
+    "sector": "",
+    "industry": ""
+  },
+  "BBCI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BBCIW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CPU": {
+    "sector": "",
+    "industry": ""
+  },
+  "OAKL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RINK": {
+    "sector": "",
+    "industry": ""
+  },
+  "SLVI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMTJ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SPXP": {
+    "sector": "",
+    "industry": ""
   }
 }
