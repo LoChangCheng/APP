@@ -65118,5 +65118,25 @@
   "SPXP": {
     "sector": "",
     "industry": ""
+  },
+  "SCAT": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "SCATR": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCATW": {
+    "sector": "",
+    "industry": ""
+  },
+  "WSLS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "WTAL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
