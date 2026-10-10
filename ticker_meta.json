@@ -65138,5 +65138,37 @@
   "WTAL": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "AIOK": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing"
+  },
+  "BDAI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OPTO": {
+    "sector": "ETF",
+    "industry": "Derivative Income"
+  },
+  "RTSN": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "TRXB": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "VGTX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XXQQ": {
+    "sector": "ETF",
+    "industry": "Large Growth"
+  },
+  "XXSP": {
+    "sector": "ETF",
+    "industry": "Large Blend"
   }
 }
