@@ -65170,5 +65170,17 @@
   "XXSP": {
     "sector": "ETF",
     "industry": "Large Blend"
+  },
+  "00415A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IRLA": {
+    "sector": "",
+    "industry": ""
   }
 }
