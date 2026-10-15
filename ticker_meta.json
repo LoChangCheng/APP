@@ -65190,5 +65190,53 @@
   "RNTZ": {
     "sector": "",
     "industry": ""
+  },
+  "7806.TWO": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "ACHP": {
+    "sector": "",
+    "industry": ""
+  },
+  "BSRT": {
+    "sector": "",
+    "industry": ""
+  },
+  "DFGV": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FLSC": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "MGOL": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PEPT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "RTHY": {
+    "sector": "ETF",
+    "industry": "Inflation-Protected Bond"
+  },
+  "XLEM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLKM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLPM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XLYM": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
