@@ -65238,5 +65238,41 @@
   "XLYM": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "8908.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AMRO": {
+    "sector": "Basic Materials",
+    "industry": "Other Industrial Metals & Mining"
+  },
+  "AVUC": {
+    "sector": "ETF",
+    "industry": "Large Blend"
+  },
+  "BMMX": {
+    "sector": "",
+    "industry": ""
+  },
+  "GANZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "IAM": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "SMRZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "WBEM": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "WBIE": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
