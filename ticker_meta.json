@@ -65274,5 +65274,77 @@
   "WBIE": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "AAAB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AGGB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BBBB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CTY": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "FTN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GCB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HOID": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IGB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LIGB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LTB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MMF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SVTN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TCXB": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "TNTW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TTTT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "UB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
