@@ -65346,5 +65346,45 @@
   "UB": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6467.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACIV": {
+    "sector": "",
+    "industry": ""
+  },
+  "AIED": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DCM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HINC": {
+    "sector": "",
+    "industry": ""
+  },
+  "LCU": {
+    "sector": "",
+    "industry": ""
+  },
+  "SEQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SQBR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SRTM": {
+    "sector": "",
+    "industry": ""
+  },
+  "WINC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
