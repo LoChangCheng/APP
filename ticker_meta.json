@@ -65386,5 +65386,21 @@
   "WINC": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "009831.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009832.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIBN": {
+    "sector": "",
+    "industry": ""
+  },
+  "MTGG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
