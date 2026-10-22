@@ -65402,5 +65402,45 @@
   "MTGG": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "2249.TWO": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts"
+  },
+  "AHIC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AHYM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ASTM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GMIE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "POMG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RBTX": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCIN": {
+    "sector": "",
+    "industry": ""
+  },
+  "TLCE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TSIE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
