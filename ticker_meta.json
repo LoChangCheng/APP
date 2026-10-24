@@ -65442,5 +65442,73 @@
   "TSIE": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "6898.TWO": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services"
+  },
+  "6938.TWO": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "7710.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APXC": {
+    "sector": "",
+    "industry": ""
+  },
+  "DAVI": {
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
+  },
+  "EMAG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "FIFT": {
+    "sector": "ETF",
+    "industry": "Large Value"
+  },
+  "ICOM": {
+    "sector": "ETF",
+    "industry": "Natural Resources"
+  },
+  "LYCA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "NANO": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials"
+  },
+  "NANOW": {
+    "sector": "",
+    "industry": ""
+  },
+  "OVQ": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PAXG": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "PAXGR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "QQDH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SMNG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "THRU": {
+    "sector": "ETF",
+    "industry": "Infrastructure"
   }
 }
