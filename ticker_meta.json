@@ -65510,5 +65510,37 @@
   "THRU": {
     "sector": "ETF",
     "industry": "Infrastructure"
+  },
+  "00416A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ACIN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AETR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CAYN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FCDH": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GUNN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PTIV": {
+    "sector": "",
+    "industry": ""
+  },
+  "RADD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
