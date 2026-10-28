@@ -65542,5 +65542,25 @@
   "RADD": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "MSGK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "MSGR": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCQCU": {
+    "sector": "Financial Services",
+    "industry": "Shell Companies"
+  },
+  "WBMO": {
+    "sector": "",
+    "industry": ""
+  },
+  "YSKH": {
+    "sector": "",
+    "industry": ""
   }
 }
