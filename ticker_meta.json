@@ -65566,5 +65566,41 @@
   "FFTT": {
     "sector": "",
     "industry": ""
+  },
+  "6825.TWO": {
+    "sector": "Technology",
+    "industry": "Computer Hardware"
+  },
+  "7867.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AZR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BHAIU": {
+    "sector": "",
+    "industry": ""
+  },
+  "ELCF": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ETDG": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FBEQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "FIBT": {
+    "sector": "",
+    "industry": ""
+  },
+  "GBC": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
   }
 }
