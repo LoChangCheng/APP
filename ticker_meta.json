@@ -65602,5 +65602,21 @@
   "GBC": {
     "sector": "Financial Services",
     "industry": "Banks - Regional"
+  },
+  "ASPE": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "BBTX": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "METAM": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NORD": {
+    "sector": "Industrials",
+    "industry": "Consulting Services"
   }
 }
