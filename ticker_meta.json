@@ -65618,5 +65618,29 @@
   "NORD": {
     "sector": "Industrials",
     "industry": "Consulting Services"
+  },
+  "ACJL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIBE": {
+    "sector": "",
+    "industry": ""
+  },
+  "CASK": {
+    "sector": "",
+    "industry": ""
+  },
+  "NARA": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "NMZ-V": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OPAY": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure"
   }
 }
