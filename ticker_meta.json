@@ -65642,5 +65642,25 @@
   "OPAY": {
     "sector": "Technology",
     "industry": "Software - Infrastructure"
+  },
+  "00413A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "00418A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EMIL": {
+    "sector": "",
+    "industry": ""
+  },
+  "THCR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VTVX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
