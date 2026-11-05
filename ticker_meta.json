@@ -65662,5 +65662,29 @@
   "VTVX": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "INK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NMZ-R": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "RECD": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "RECM": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SAEN": {
+    "sector": "",
+    "industry": ""
+  },
+  "SIX": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure"
   }
 }
