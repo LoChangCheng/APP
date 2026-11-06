@@ -65686,5 +65686,41 @@
   "SIX": {
     "sector": "Consumer Cyclical",
     "industry": "Leisure"
+  },
+  "ACEM": {
+    "sector": "",
+    "industry": ""
+  },
+  "AGLT": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "AGLTW": {
+    "sector": "",
+    "industry": ""
+  },
+  "BBLX": {
+    "sector": "",
+    "industry": ""
+  },
+  "BFH-C": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "DFIT": {
+    "sector": "",
+    "industry": ""
+  },
+  "DLAY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FMIG": {
+    "sector": "",
+    "industry": ""
+  },
+  "INJC": {
+    "sector": "",
+    "industry": ""
   }
 }
