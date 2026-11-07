@@ -65722,5 +65722,13 @@
   "INJC": {
     "sector": "",
     "industry": ""
+  },
+  "LEDR": {
+    "sector": "",
+    "industry": ""
+  },
+  "LEDRW": {
+    "sector": "",
+    "industry": ""
   }
 }
