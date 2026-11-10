@@ -65730,5 +65730,41 @@
   "LEDRW": {
     "sector": "",
     "industry": ""
+  },
+  "HYB": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HYFY": {
+    "sector": "",
+    "industry": ""
+  },
+  "LYR": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "LYRI": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MFIX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MTRI": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "SMDC": {
+    "sector": "",
+    "industry": ""
+  },
+  "TXCP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "XDLR": {
+    "sector": "",
+    "industry": ""
   }
 }
