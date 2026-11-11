@@ -65766,5 +65766,41 @@
   "XDLR": {
     "sector": "",
     "industry": ""
+  },
+  "BGRD": {
+    "sector": "",
+    "industry": ""
+  },
+  "EMDI": {
+    "sector": "",
+    "industry": ""
+  },
+  "LTEQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "PGRW": {
+    "sector": "",
+    "industry": ""
+  },
+  "QUIT": {
+    "sector": "",
+    "industry": ""
+  },
+  "SCQC": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCQCR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "SCQCW": {
+    "sector": "",
+    "industry": ""
+  },
+  "XGPU": {
+    "sector": "",
+    "industry": ""
   }
 }
