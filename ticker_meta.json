@@ -65802,5 +65802,33 @@
   "XGPU": {
     "sector": "",
     "industry": ""
+  },
+  "00420A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009833.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IBLY": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IQEE": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IQEI": {
+    "sector": "",
+    "industry": ""
+  },
+  "IQEL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "IQES": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
