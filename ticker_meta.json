@@ -65830,5 +65830,29 @@
   "IQES": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CRMN": {
+    "sector": "",
+    "industry": ""
+  },
+  "GLLD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "KBTY": {
+    "sector": "",
+    "industry": ""
+  },
+  "MAGP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "NJPN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VEMB": {
+    "sector": "",
+    "industry": ""
   }
 }
