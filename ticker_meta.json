@@ -65854,5 +65854,45 @@
   "VEMB": {
     "sector": "",
     "industry": ""
+  },
+  "7848.TWO": {
+    "sector": "",
+    "industry": ""
+  },
+  "BWLB": {
+    "sector": "",
+    "industry": ""
+  },
+  "LOB-B": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LOVI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "LOVIW": {
+    "sector": "",
+    "industry": ""
+  },
+  "MDRN": {
+    "sector": "Industrials",
+    "industry": "Waste Management"
+  },
+  "OPHI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VVVV": {
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
+  },
+  "WWB": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "ZYN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
