@@ -65894,5 +65894,25 @@
   "ZYN": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "BRRK": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "BRRKW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HCOP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HZN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "PORT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
