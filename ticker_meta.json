@@ -65914,5 +65914,53 @@
   "PORT": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "CWPD": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CWPG": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "DAU": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "DRAC": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "MEA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "NTCR": {
+    "sector": "ETF",
+    "industry": "Corporate Bond"
+  },
+  "PCHX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "PIVT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SIMI": {
+    "sector": "",
+    "industry": ""
+  },
+  "TXR": {
+    "sector": "",
+    "industry": ""
+  },
+  "VRSA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZDAY": {
+    "sector": "",
+    "industry": ""
   }
 }
