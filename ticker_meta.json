@@ -65962,5 +65962,65 @@
   "ZDAY": {
     "sector": "",
     "industry": ""
+  },
+  "00419A.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APFS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "APNX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CCHP": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "GMIX": {
+    "sector": "",
+    "industry": ""
+  },
+  "GUER": {
+    "sector": "Technology",
+    "industry": "Semiconductors"
+  },
+  "IQQI": {
+    "sector": "",
+    "industry": ""
+  },
+  "SDC": {
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies"
+  },
+  "SHLA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TRLL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VEN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "VVPL": {
+    "sector": "",
+    "industry": ""
+  },
+  "YASX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZOAR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
