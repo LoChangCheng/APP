@@ -66022,5 +66022,53 @@
   "ZOAR": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "ANT": {
+    "sector": "Technology",
+    "industry": "Software - Application"
+  },
+  "CGBI": {
+    "sector": "",
+    "industry": ""
+  },
+  "CGMI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ENVXW": {
+    "sector": "",
+    "industry": ""
+  },
+  "FDGX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDGXU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FDGXW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "FMBM": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional"
+  },
+  "GQGG": {
+    "sector": "",
+    "industry": ""
+  },
+  "GSCZ": {
+    "sector": "",
+    "industry": ""
+  },
+  "JALL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "TFIX": {
+    "sector": "",
+    "industry": ""
   }
 }
