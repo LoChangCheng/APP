@@ -66070,5 +66070,25 @@
   "TFIX": {
     "sector": "",
     "industry": ""
+  },
+  "AAUD": {
+    "sector": "",
+    "industry": ""
+  },
+  "CZZL": {
+    "sector": "",
+    "industry": ""
+  },
+  "ISMH": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "SONN": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "YLDS": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
