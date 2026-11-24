@@ -66090,5 +66090,113 @@
   "YLDS": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "009834.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "009835.TW": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "AIL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ALLZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ANDD": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ANS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANSS": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANTC": {
+    "sector": "",
+    "industry": ""
+  },
+  "ANTD": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANTO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ANTQ": {
+    "sector": "",
+    "industry": ""
+  },
+  "ANTT": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ANTU": {
+    "sector": "",
+    "industry": ""
+  },
+  "ANTY": {
+    "sector": "",
+    "industry": ""
+  },
+  "ANTZ": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ANUU": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ATHX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "AVZO": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "CLAU": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "CLYD": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "DIVA": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ENHV": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EVRL": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "EVRLW": {
+    "sector": "",
+    "industry": ""
+  },
+  "VESI": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "ZCAP": {
+    "sector": "ETF",
+    "industry": "Index Fund"
+  },
+  "ZECX": {
+    "sector": "ETF",
+    "industry": "Index Fund"
   }
 }
