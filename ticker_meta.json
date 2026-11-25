@@ -66198,5 +66198,21 @@
   "ZECX": {
     "sector": "ETF",
     "industry": "Index Fund"
+  },
+  "IVEA": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "OBMT": {
+    "sector": "",
+    "industry": ""
+  },
+  "QSPC": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense"
+  },
+  "YANT": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
