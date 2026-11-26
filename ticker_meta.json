@@ -66214,5 +66214,13 @@
   "YANT": {
     "sector": "Unknown",
     "industry": "Unknown"
+  },
+  "BFLR": {
+    "sector": "",
+    "industry": ""
+  },
+  "RMTX": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
