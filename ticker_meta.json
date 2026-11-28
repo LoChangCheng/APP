@@ -66226,5 +66226,13 @@
   "7869.TWO": {
     "sector": "",
     "industry": ""
+  },
+  "AFLR": {
+    "sector": "Unknown",
+    "industry": "Unknown"
+  },
+  "HTOEU": {
+    "sector": "Unknown",
+    "industry": "Unknown"
   }
 }
